@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "configurations": 133,
+  "methods": 4,
+  "timing_blocks": 532,
+  "memory_blocks": 532,
+  "warmup_trials": 1596,
+  "measured_trials": 5320,
+  "per_state_rows": 6728,
+  "per_configuration_rows": 532,
+  "quality_aggregate": {
+    "U-SP": {
+      "states": 1682,
+      "proper": 1682,
+      "optimal_first_action": 1682,
+      "optimal_complete_policy": 1682,
+      "max_cost_gap": 0.0,
+      "mean_cost_gap": 0.0
+    },
+    "C-SP": {
+      "states": 1682,
+      "proper": 1682,
+      "optimal_first_action": 1682,
+      "optimal_complete_policy": 1682,
+      "max_cost_gap": 0.0,
+      "mean_cost_gap": 0.0
+    },
+    "C-KL-MODE": {
+      "states": 1682,
+      "proper": 1682,
+      "optimal_first_action": 1660,
+      "optimal_complete_policy": 1660,
+      "max_cost_gap": 1.0,
+      "mean_cost_gap": 0.005707491082045184
+    },
+    "TW-DP-H": {
+      "states": 1682,
+      "proper": 1682,
+      "optimal_first_action": 1682,
+      "optimal_complete_policy": 1682,
+      "max_cost_gap": 0.0,
+      "mean_cost_gap": 0.0
+    }
+  },
+  "high_precision_mode_disagreements": 0,
+  "unresolved_exact_mode_ties": 4,
+  "R1_R2_gap_counts": {
+    "NOT_PASSED": 264,
+    "PASS": 353,
+    "PASS_INFINITE": 23
+  },
+  "max_primary_desirability_error": 8.913133978903374e-13,
+  "timing_qualification": "Sub-ms times are resolution-sensitive. Audits/gap replays measured once per configuration after primary workers; composite totals are sums, not repeated audit measurements.",
+  "memory_qualification": "Fresh-process RSS includes interpreter and workspace. Baseline-subtracted high-water differences can be zero despite allocations. Payload and deep-size columns are distinct."
+}

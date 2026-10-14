@@ -1,0 +1,39 @@
+{
+  "config": {
+    "id": "R1-w1.0-2.0",
+    "model": "R1",
+    "weights": [
+      "1.0",
+      "2.0"
+    ]
+  },
+  "z": {
+    "-1": "1.0",
+    "1": "0.3024703452230606469544884085475657904542303670710941703426893470092650605141616122",
+    "2": "0.3388881637246502377256441244995476618481230253083414191300059378786799694622798422",
+    "3": "0.1900790842390222555662604320930073938932126109263243525396349148613306592021193239"
+  },
+  "audit": {
+    "config": "R1-w1.0-2.0",
+    "oracle_ns": 51346,
+    "fullH_validation_ns": 90784,
+    "high_precision_ns": 1749090,
+    "independent_audit_ns": 2199618,
+    "gap_reference_rebuild_and_solve_ns": 119537,
+    "gap_scan_ns": 15162,
+    "gap_ns": 134699,
+    "high_precision_sweeps": 45,
+    "high_precision_error_estimate": "4.756901444437135654587963429891756043683894001733084884679363939404603457694216904e-61",
+    "max_primary_desirability_error": "1.066370531588433407490171823794300893006e-13",
+    "max_audited_mode_score_slack": "0.0",
+    "resolved_disagreements": 0,
+    "numerical_ties_unresolved_exact_equality": 0,
+    "fullH_values_and_policy_checked": true,
+    "fullH_sweeps": 3,
+    "N0": 3,
+    "N_B": 3,
+    "A": 4,
+    "E_all_distinct": 6,
+    "E_B_distinct": 6
+  }
+}
