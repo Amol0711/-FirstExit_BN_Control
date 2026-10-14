@@ -1,0 +1,29 @@
+{
+  "arithmetic": "binary64; ordered builtin sum; (1-alpha)*z + alpha*discount*z_next using preupdate z_next",
+  "budget_precedence": "test residual at a cap checkpoint; mark target-met if it meets tolerance there, else budget-exhausted",
+  "early_stop": "a successful full scan may interrupt an episode; no success before every basin state has been updated",
+  "environment_recorded": true,
+  "epsilon": 0.0,
+  "initial_desirability": 1.0,
+  "max_updates": 1000000,
+  "mode_ties": "negative log probability minus log continuation; STP index, terminal last",
+  "models": [
+    "R1",
+    "R2"
+  ],
+  "omega": 0.75,
+  "path_cap": "number_of_transient_basin_states",
+  "representative_ties": "exact decimal cost, then cardinality, then increasing node tuple",
+  "restart": "random.Random(seed).choice on ascending Boolean strings",
+  "scan_every": 1000,
+  "seeds": [
+    1101,
+    1102,
+    1103,
+    1104,
+    1105
+  ],
+  "successor_sampling": "one random() draw, cumulative sum, strict draw < cumulative; ascending Boolean strings, dagger last",
+  "tolerance": 0.001,
+  "version": "passive-sampling-1.0"
+}

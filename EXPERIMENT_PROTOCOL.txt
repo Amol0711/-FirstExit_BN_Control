@@ -1,0 +1,152 @@
+EXPERIMENT EXECUTION PROTOCOL
+=============================
+
+Scope and record locations
+--------------------------
+This file consolidates implementation settings for the numerical experiments.
+It introduces no new model, controller, seed, tolerance or measurement. The code
+and JSON settings contain the executable definitions. Existing timing and memory
+records are fixed observations of their recorded environment, not measurements
+of a newly extracted copy. A fresh default reproduction replays numerical
+calculations and checks the fixed observations without collecting replacement
+performance measurements.
+
+Inputs and conventions are in code/boolean_networks.py,
+code/sampling_models.json, code/sampling_settings.json and
+code/comparison_settings.json. Results are in results/deterministic,
+results/sampling and results/comparison. TSV/CSV headers identify numerical
+fields; JSON/JSONL records retain full precision and termination statuses.
+
+Recorded runtime and comparison hardware
+---------------------------------------
+The stored comparison run used CPython 3.13.5 on a Linux x86-64 host with an
+AMD EPYC 9V74 80-Core Processor, restricted to one logical CPU. The CPU model
+describes the host, not an 80-core parallel computation. The recorded platform
+is Linux-6.18.44-x86_64-with-glibc2.41. NumPy 2.3.5 and mpmath 1.3.0 are the
+numerical dependencies. SciPy 1.17.0 appears in the recorded environment but is
+not imported by these numerical algorithms and is not required for reproduction.
+Optional plotting uses the versions pinned in requirements-plot.txt.
+
+results/comparison/run_manifest.json retains the original environment, affinity,
+thread environment, clock information and seeded block order. Experiment code
+uses no network after dependency installation. Reproduction on different
+floating-point libraries or Python random primitives may not be byte-identical;
+the supplied verifier reports differences rather than silently relaxing checks.
+
+Fixed-update passive sampling
+-----------------------------
+Models R1 and R2 use weights (0.4, 1.0), unit pre-target state cost, the
+unsmoothed reference (epsilon = 0), and initial desirability one on transient
+basin states. Each model uses seeds 1101, 1102, 1103, 1104 and 1105, giving ten
+runs in total. These are five separate integer seeds, not a single concatenated
+seed. The implementation is random.Random with the exact primitives below.
+
+* Independent uniform restarts use choice on the ascending Boolean-state list.
+* Each successor uses one random() draw and an ordered cumulative probability
+  scan, with strict draw < cumulative comparison and the terminal symbol last.
+* The visited-state update counter determines alpha_m = m^(-0.75).
+* The episode path cap equals the transient basin size, 3 for R1 and 7 for R2.
+* Each run has a cap of 1,000,000 sampled updates.
+* A full residual scan occurs every 1,000 sampled updates.
+* The run meets its numerical target when all states have received updates and
+  residual/(1-exp(-1)) <= 0.001. A successful cap scan takes precedence over
+  budget exhaustion; a successful scan may interrupt an episode.
+
+The numerical reference is a linear-system solve of the same unsmoothed
+successor-control problem. Independent checks use 80 and 140 decimal digits.
+These values are used for evaluation, never as inputs to the sampled updates.
+Every full-scan history and final iterate, including interrupted episodes and
+exhausted budgets, is retained. In seed order, the R1 update counts are
+12,000; 80,000; 73,000; 25,000; 94,000. R2 seeds 1104 and 1105 meet the target
+after 600,000 and 652,000 updates; seeds 1101--1103 exhaust their budgets.
+The complete runs have 4,536,000 sampled updates and 4,536 full scans. Each state
+receives at least 2,593 updates. Mode agreement and physical target entry are
+checked separately from residual stopping. The files sampling_summary.csv,
+state_visits.csv, each *_result.json and all *_history.jsonl retain these values.
+
+Matched comparison and performance measurements
+----------------------------------------------
+The 133 configurations comprise V2--V4, all 128 R1/R2 weight configurations,
+and P9-r1/P9-r2. V1 is a separate exactness check. The four methods are U-SP,
+C-SP, C-KL-MODE and TW-DP-H; MODEL_NOTES.txt retains their source attributions.
+
+The block-order seed is 20261011. Each method/configuration block uses a fresh
+worker, three warmup runs and ten measured repetitions. All 532 blocks, 1,596
+warmups and 5,320 measurements are retained. No cross-method graph cache is
+used. Each repetition rebuilds the graph and discovers the basin. Linux limits
+are 600 seconds and 2 GiB address space per trial, with numerical thread limits
+set to one. Durations are obtained with perf_counter_ns.
+
+Complete-controller time includes model validation, graph construction, basin
+discovery, reference normalization where applicable, solution, recovery and
+physical-policy verification. Startup/import, serialization and independent
+reference diagnostics are outside that total. A total is summed within each
+trial before medians and quartiles are computed. It is not a sum of marginal
+phase medians. Small-model totals of 0.35--0.73 milliseconds are
+resolution-sensitive. Separate no-warmup workers provide memory observations.
+The original interruption and nonselective completion of missing blocks are
+recorded in run_manifest.json; completed observations were not filtered.
+
+Deterministic costs use exact integer tenths. The comparison representative
+convention uses lexicographic action order and selects the same representatives
+as the cardinality-then-lexicographic convention on these inputs. TW-DP-H uses
+the transient-basin-size horizon and its stated terminal penalty. Early stopping
+requires an exact Bellman fixed point and a proper policy. All configurations
+are checked through the full horizon as well.
+
+C-KL-MODE starts from one, uses residual-based tolerance 1e-12 and at most
+10,000 sweeps. Numerical modal ties use algebraic successor order; relative
+separations within 1e-10 are flagged. Independent 80-digit iterations use a
+1e-60 error-estimate target without changing the timed policies. The separate
+reference comparison uses its documented 1e-50 numerical tie threshold. Four
+choices in V3 remain numerically unresolved; there is no separated disagreement.
+Original costs are checked with an independent raw-action integer computation.
+All settings remain in comparison_settings.json and the evaluation records.
+
+Memory and separate numerical-check durations
+--------------------------------------------
+For P9-r2, raw/compressed graph payloads are 550.92/229.55 KiB. Reference weights
+add 76.52 KiB for the KL computation. Retained Python controller allocations are
+700.35, 378.98, 711.51 and 529.54 KiB in method order. Separate no-warmup workers
+peak at 97.02--97.15 MiB; the approximately 97 MiB after-import high-water
+baseline masks smaller increments. A zero baseline-subtracted increment does
+not mean zero allocation, and graph payload is not total process memory.
+
+Recorded fresh-reference gap checks took 45.96 and 194.77 milliseconds for
+P9-r1 and P9-r2. Separate full-horizon/high-precision checks took 2.05 and
+4.91 seconds. These are individual diagnostic observations, not medians of
+repeated combined trials, and are outside complete-controller totals.
+They are preserved, not remeasured by the default reproduction command.
+
+Numerical backend and output storage
+-----------------------------------
+The general solve_desirability interface defaults to tolerance 1e-14 and a
+100,000-sweep cap. Its automatic backend uses Python dense elimination through
+128 transient basin states and NumPy for larger systems. An unavailable NumPy
+import triggers sparse iteration; this fallback is distinct from the pinned
+reference environment. The fixed-update sampler and comparison iteration have
+the separate settings given above. Dense matrix/factorization storage, retained
+kernel data, and value-vector workspace are different quantities.
+
+Some diagnostic outputs retain full action classes and full-state arrays.
+Those output schemas are not a lean successor-only storage implementation.
+The deterministic regularization log records deterministic numerical checks;
+stochastic histories are produced separately by code/run_sampling.py.
+No statement in that log is a substitute for the complete sampling records.
+
+Integrity, interpretation and commands
+-------------------------------------
+Run python -B reproduce.py --output ../first_exit_run from an extracted copy.
+The output must be outside the source tree. The runner checks distributed file
+coverage and hashes, executes tests and numerical producers, verifies exact
+numerical-file equality, replays full sampling histories, and checks stored
+comparison values without retiming. See README.txt for individual commands and
+plots. Dependencies are installed separately and are not included in this ZIP.
+
+Numerical residuals, high-precision agreement and finite-run observations are
+not interval certificates. The model definitions, action restrictions and cost
+units are fixed inputs. All adverse outcomes remain in the supplied results,
+including three exhausted sampling budgets, 17 positive local recovery losses,
+22 positive complete-policy original-cost losses and unresolved numerical ties.
+Licensing information is in LICENSE_STATUS.txt. No online availability or
+redistribution permission follows from a local integrity check.
