@@ -1,0 +1,180 @@
+{
+  "config": {
+    "id": "R1-w0.4-0.6",
+    "model": "R1",
+    "weights": [
+      "0.4",
+      "0.6"
+    ]
+  },
+  "first_result": {
+    "A": 4,
+    "C_successor_calls": 12,
+    "E_B": 6,
+    "E_all": 6,
+    "N0": 3,
+    "N_B": 3,
+    "N_total": 4,
+    "actions": [
+      [],
+      [
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "config": "R1-w0.4-0.6",
+    "domain": [
+      3,
+      2,
+      1
+    ],
+    "failure_status": "OK",
+    "memory": {
+      "RSS_above_empty_worker_bytes": 0,
+      "empty_worker_RSS_bytes": 101605376,
+      "graph_allocation_bytes": 1500,
+      "graph_payload_bytes": 144,
+      "graph_row_records": 6,
+      "logical_policy_entries": 3,
+      "measurement_qualification": "Payload arrays are allocated bytes; other numeric-equivalent fields exclude Python overhead. RSS measured separately.",
+      "peak_RSS_bytes": 101605376,
+      "policy_allocation_bytes": 1243,
+      "policy_numeric_equivalent_bytes": 48,
+      "reference_allocation_bytes": 64,
+      "reference_entries": 0,
+      "reference_payload_bytes": 0,
+      "retained_controller_allocation_bytes": 3641,
+      "stored_policy_entries": 3,
+      "value_live_allocation_bytes": 420,
+      "value_numeric_entries": 4,
+      "value_numeric_equivalent_bytes": 32
+    },
+    "method": "C-SP",
+    "mode_scores": {},
+    "near_tie_count": 0,
+    "outcomes": [
+      {
+        "cost10": 14,
+        "delta_index": 1,
+        "first_action": 1,
+        "first_successor": -1,
+        "flipped_nodes": 1,
+        "hitting_time": 1,
+        "initial": 3,
+        "initial_bits": "11",
+        "nonempty_interventions": 1,
+        "path": [
+          [
+            3,
+            1,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 2,
+        "first_action": 0,
+        "first_successor": -1,
+        "flipped_nodes": 0,
+        "hitting_time": 1,
+        "initial": 2,
+        "initial_bits": "10",
+        "nonempty_interventions": 0,
+        "path": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 3,
+        "first_action": 0,
+        "first_successor": -1,
+        "flipped_nodes": 0,
+        "hitting_time": 1,
+        "initial": 1,
+        "initial_bits": "01",
+        "nonempty_interventions": 0,
+        "path": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      }
+    ],
+    "phases": {
+      "basin_ns": 15894,
+      "graph_build_ns": 93398,
+      "model_validation_ns": 601160,
+      "properness_ns": 24015,
+      "recovery_ns": 9314,
+      "reference_ns": 0,
+      "solve_ns": 14692,
+      "total_no_diagnostic_ns": 758473
+    },
+    "result_signature": "3a91ab4da92890505f5b0fbfd27da5e55f15a46346ac7b0fcb202d6b149dd0ce",
+    "solver": {
+      "edge_visits": 12,
+      "heap_pushes": 4,
+      "numeric_value_entries": 4,
+      "status": "EXACT_INTEGER_SOLUTION",
+      "sweeps": 0
+    },
+    "validation": {
+      "common_marker_indices": [
+        1,
+        2
+      ],
+      "model_sha256": "d391e521ad796ac7828d89e0c1491bbeebd01394985ebb27b9956e2f532379e1",
+      "target_cycle_size": 1,
+      "validation_update_calls": 4
+    },
+    "values": {
+      "-1": 0,
+      "1": 10,
+      "2": 10,
+      "3": 14
+    }
+  },
+  "import_ns": 4785736,
+  "memory": true,
+  "method": "C-SP",
+  "status": "OK",
+  "timestamp": "2026-10-11T08:27:59.401776+00:00",
+  "trials": [
+    {
+      "index": 0,
+      "phase": "memory",
+      "phases": {
+        "basin_ns": 15894,
+        "graph_build_ns": 93398,
+        "model_validation_ns": 601160,
+        "properness_ns": 24015,
+        "recovery_ns": 9314,
+        "reference_ns": 0,
+        "solve_ns": 14692,
+        "total_no_diagnostic_ns": 758473
+      },
+      "result_signature": "3a91ab4da92890505f5b0fbfd27da5e55f15a46346ac7b0fcb202d6b149dd0ce",
+      "status": "OK",
+      "trial_wall_ns": 893694
+    }
+  ],
+  "worker_process_elapsed_ns": 634080674,
+  "worker_returncode": 0
+}

@@ -1,0 +1,260 @@
+{
+  "config": {
+    "id": "V3",
+    "model": "V3",
+    "weights": []
+  },
+  "first_result": {
+    "A": 4,
+    "C_successor_calls": 24,
+    "E_B": 22,
+    "E_all": 22,
+    "N0": 6,
+    "N_B": 6,
+    "N_total": 8,
+    "actions": [
+      [],
+      [
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "config": "V3",
+    "domain": [
+      7,
+      5,
+      3,
+      2,
+      1,
+      0
+    ],
+    "failure_status": "OK",
+    "memory": {
+      "RSS_above_empty_worker_bytes": 0,
+      "empty_worker_RSS_bytes": 101605376,
+      "graph_allocation_bytes": 2304,
+      "graph_payload_bytes": 528,
+      "graph_row_records": 22,
+      "logical_policy_entries": 6,
+      "measurement_qualification": "Payload arrays are allocated bytes; other numeric-equivalent fields exclude Python overhead. RSS measured separately.",
+      "peak_RSS_bytes": 101605376,
+      "policy_allocation_bytes": 1623,
+      "policy_numeric_equivalent_bytes": 96,
+      "reference_allocation_bytes": 64,
+      "reference_entries": 0,
+      "reference_payload_bytes": 0,
+      "retained_controller_allocation_bytes": 4897,
+      "stored_policy_entries": 6,
+      "value_live_allocation_bytes": 604,
+      "value_numeric_entries": 7,
+      "value_numeric_equivalent_bytes": 56
+    },
+    "method": "C-SP",
+    "mode_scores": {},
+    "near_tie_count": 0,
+    "outcomes": [
+      {
+        "cost10": 20,
+        "delta_index": 1,
+        "first_action": 2,
+        "first_successor": 2,
+        "flipped_nodes": 3,
+        "hitting_time": 2,
+        "initial": 7,
+        "initial_bits": "111",
+        "nonempty_interventions": 2,
+        "path": [
+          [
+            7,
+            2,
+            2
+          ],
+          [
+            2,
+            1,
+            4
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 20,
+        "delta_index": 3,
+        "first_action": 1,
+        "first_successor": 2,
+        "flipped_nodes": 2,
+        "hitting_time": 2,
+        "initial": 5,
+        "initial_bits": "101",
+        "nonempty_interventions": 2,
+        "path": [
+          [
+            5,
+            1,
+            2
+          ],
+          [
+            2,
+            1,
+            4
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 20,
+        "delta_index": 5,
+        "first_action": 3,
+        "first_successor": 2,
+        "flipped_nodes": 2,
+        "hitting_time": 2,
+        "initial": 3,
+        "initial_bits": "011",
+        "nonempty_interventions": 2,
+        "path": [
+          [
+            3,
+            3,
+            2
+          ],
+          [
+            2,
+            1,
+            4
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 6,
+        "first_action": 1,
+        "first_successor": -1,
+        "flipped_nodes": 1,
+        "hitting_time": 1,
+        "initial": 2,
+        "initial_bits": "010",
+        "nonempty_interventions": 1,
+        "path": [
+          [
+            2,
+            1,
+            4
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 20,
+        "delta_index": 7,
+        "first_action": 0,
+        "first_successor": 2,
+        "flipped_nodes": 1,
+        "hitting_time": 2,
+        "initial": 1,
+        "initial_bits": "001",
+        "nonempty_interventions": 1,
+        "path": [
+          [
+            1,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            4
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 8,
+        "first_action": 1,
+        "first_successor": -1,
+        "flipped_nodes": 1,
+        "hitting_time": 1,
+        "initial": 0,
+        "initial_bits": "000",
+        "nonempty_interventions": 1,
+        "path": [
+          [
+            0,
+            1,
+            6
+          ]
+        ],
+        "status": "PROPER"
+      }
+    ],
+    "phases": {
+      "basin_ns": 18538,
+      "graph_build_ns": 122321,
+      "model_validation_ns": 353674,
+      "properness_ns": 68321,
+      "recovery_ns": 16074,
+      "reference_ns": 0,
+      "solve_ns": 20470,
+      "total_no_diagnostic_ns": 599398
+    },
+    "result_signature": "2d69bcaac204e33c08f5d0216010b21b5247092c8591865a97601a7855a042dd",
+    "solver": {
+      "edge_visits": 44,
+      "heap_pushes": 7,
+      "numeric_value_entries": 7,
+      "status": "EXACT_INTEGER_SOLUTION",
+      "sweeps": 0
+    },
+    "validation": {
+      "common_marker_indices": [
+        1,
+        3
+      ],
+      "model_sha256": "b37823c64fcefbc02bc233dca4ebcce9bde88a1dce940f1b3213bb86261b2bdb",
+      "target_cycle_size": 2,
+      "validation_update_calls": 8
+    },
+    "values": {
+      "-1": 0,
+      "0": 10,
+      "1": 20,
+      "2": 10,
+      "3": 20,
+      "5": 20,
+      "7": 20
+    }
+  },
+  "import_ns": 4146563,
+  "memory": true,
+  "method": "C-SP",
+  "status": "OK",
+  "timestamp": "2026-10-11T08:27:29.817131+00:00",
+  "trials": [
+    {
+      "index": 0,
+      "phase": "memory",
+      "phases": {
+        "basin_ns": 18538,
+        "graph_build_ns": 122321,
+        "model_validation_ns": 353674,
+        "properness_ns": 68321,
+        "recovery_ns": 16074,
+        "reference_ns": 0,
+        "solve_ns": 20470,
+        "total_no_diagnostic_ns": 599398
+      },
+      "result_signature": "2d69bcaac204e33c08f5d0216010b21b5247092c8591865a97601a7855a042dd",
+      "status": "OK",
+      "trial_wall_ns": 756621
+    }
+  ],
+  "worker_process_elapsed_ns": 611164111,
+  "worker_returncode": 0
+}

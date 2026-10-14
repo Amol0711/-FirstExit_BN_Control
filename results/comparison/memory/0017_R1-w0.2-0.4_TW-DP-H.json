@@ -1,0 +1,184 @@
+{
+  "config": {
+    "id": "R1-w0.2-0.4",
+    "model": "R1",
+    "weights": [
+      "0.2",
+      "0.4"
+    ]
+  },
+  "first_result": {
+    "A": 4,
+    "C_successor_calls": 12,
+    "E_B": 6,
+    "E_all": 6,
+    "N0": 3,
+    "N_B": 3,
+    "N_total": 4,
+    "actions": [
+      [],
+      [
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "config": "R1-w0.2-0.4",
+    "domain": [
+      3,
+      2,
+      1
+    ],
+    "failure_status": "OK",
+    "memory": {
+      "RSS_above_empty_worker_bytes": 0,
+      "empty_worker_RSS_bytes": 101605376,
+      "graph_allocation_bytes": 1472,
+      "graph_payload_bytes": 144,
+      "graph_row_records": 6,
+      "logical_policy_entries": 9,
+      "measurement_qualification": "Payload arrays are allocated bytes; other numeric-equivalent fields exclude Python overhead. RSS measured separately.",
+      "peak_RSS_bytes": 101605376,
+      "policy_allocation_bytes": 1815,
+      "policy_numeric_equivalent_bytes": 96,
+      "reference_allocation_bytes": 64,
+      "reference_entries": 0,
+      "reference_payload_bytes": 0,
+      "retained_controller_allocation_bytes": 4668,
+      "stored_policy_entries": 6,
+      "value_live_allocation_bytes": 420,
+      "value_numeric_entries": 8,
+      "value_numeric_equivalent_bytes": 64
+    },
+    "method": "TW-DP-H",
+    "mode_scores": {},
+    "near_tie_count": 0,
+    "outcomes": [
+      {
+        "cost10": 12,
+        "delta_index": 1,
+        "first_action": 1,
+        "first_successor": -1,
+        "flipped_nodes": 1,
+        "hitting_time": 1,
+        "initial": 3,
+        "initial_bits": "11",
+        "nonempty_interventions": 1,
+        "path": [
+          [
+            3,
+            1,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 2,
+        "first_action": 0,
+        "first_successor": -1,
+        "flipped_nodes": 0,
+        "hitting_time": 1,
+        "initial": 2,
+        "initial_bits": "10",
+        "nonempty_interventions": 0,
+        "path": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 3,
+        "first_action": 0,
+        "first_successor": -1,
+        "flipped_nodes": 0,
+        "hitting_time": 1,
+        "initial": 1,
+        "initial_bits": "01",
+        "nonempty_interventions": 0,
+        "path": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      }
+    ],
+    "phases": {
+      "basin_ns": 14812,
+      "graph_build_ns": 90444,
+      "model_validation_ns": 338391,
+      "properness_ns": 25658,
+      "recovery_ns": 1752,
+      "reference_ns": 0,
+      "solve_ns": 32548,
+      "total_no_diagnostic_ns": 503605
+    },
+    "result_signature": "92d1b690fe4c4b49c01442d824d6c4cf1373f5f47c6c0b3089bd4f474a14f594",
+    "solver": {
+      "cmax10": 16,
+      "edge_visits": 12,
+      "fixed_point_early_stop": true,
+      "full_horizon_edge_visits": 18,
+      "horizon": 3,
+      "numeric_value_entries": 8,
+      "penalty10": 64,
+      "status": "EXACT_INTEGER_FINITE_HORIZON",
+      "sweeps": 2
+    },
+    "validation": {
+      "common_marker_indices": [
+        1,
+        2
+      ],
+      "model_sha256": "8342e4761224369bd4fa72b1c67e96d6324d609b018f6ccb97c5f40f251e4334",
+      "target_cycle_size": 1,
+      "validation_update_calls": 4
+    },
+    "values": {
+      "-1": 0,
+      "1": 10,
+      "2": 10,
+      "3": 12
+    }
+  },
+  "import_ns": 4185142,
+  "memory": true,
+  "method": "TW-DP-H",
+  "status": "OK",
+  "timestamp": "2026-10-11T08:27:36.371931+00:00",
+  "trials": [
+    {
+      "index": 0,
+      "phase": "memory",
+      "phases": {
+        "basin_ns": 14812,
+        "graph_build_ns": 90444,
+        "model_validation_ns": 338391,
+        "properness_ns": 25658,
+        "recovery_ns": 1752,
+        "reference_ns": 0,
+        "solve_ns": 32548,
+        "total_no_diagnostic_ns": 503605
+      },
+      "result_signature": "92d1b690fe4c4b49c01442d824d6c4cf1373f5f47c6c0b3089bd4f474a14f594",
+      "status": "OK",
+      "trial_wall_ns": 646888
+    }
+  ],
+  "worker_process_elapsed_ns": 574412783,
+  "worker_returncode": 0
+}
