@@ -1,0 +1,9 @@
+case_id	time	action	action_label	flipped_node_idx	flipped_node_name	nonempty	cumulative_flips	target_hit_after_action
+case1	0	empty	empty	0	none	False	0	False
+case1	1	empty	empty	0	none	False	0	False
+case1	2	empty	empty	0	none	False	0	False
+case1	3	empty	empty	0	none	False	0	False
+case1	4	empty	empty	0	none	False	0	False
+case1	5	empty	empty	0	none	False	0	False
+case1	6	empty	empty	0	none	False	0	False
+case1	7	cycle_repeat	cycle_repeat	0	none	False	0	False

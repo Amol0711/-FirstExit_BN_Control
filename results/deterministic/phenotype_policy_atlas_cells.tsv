@@ -1,0 +1,2045 @@
+sorted_position	band_idx	band_name	state_delta	code	label
+1	1	uncontrolled fate	394	1	target
+1	2	controlled tau	394	1	1
+1	3	N_flip	394	0	0
+1	4	first intervention	394	10	none
+2	1	uncontrolled fate	396	1	target
+2	2	controlled tau	396	1	1
+2	3	N_flip	396	0	0
+2	4	first intervention	396	10	none
+3	1	uncontrolled fate	398	1	target
+3	2	controlled tau	398	1	1
+3	3	N_flip	398	0	0
+3	4	first intervention	398	10	none
+4	1	uncontrolled fate	400	1	target
+4	2	controlled tau	400	1	1
+4	3	N_flip	400	0	0
+4	4	first intervention	400	10	none
+5	1	uncontrolled fate	412	1	target
+5	2	controlled tau	412	1	1
+5	3	N_flip	412	0	0
+5	4	first intervention	412	10	none
+6	1	uncontrolled fate	414	1	target
+6	2	controlled tau	414	1	1
+6	3	N_flip	414	0	0
+6	4	first intervention	414	10	none
+7	1	uncontrolled fate	416	1	target
+7	2	controlled tau	416	1	1
+7	3	N_flip	416	0	0
+7	4	first intervention	416	10	none
+8	1	uncontrolled fate	426	1	target
+8	2	controlled tau	426	1	1
+8	3	N_flip	426	0	0
+8	4	first intervention	426	10	none
+9	1	uncontrolled fate	428	1	target
+9	2	controlled tau	428	1	1
+9	3	N_flip	428	0	0
+9	4	first intervention	428	10	none
+10	1	uncontrolled fate	430	1	target
+10	2	controlled tau	430	1	1
+10	3	N_flip	430	0	0
+10	4	first intervention	430	10	none
+11	1	uncontrolled fate	432	1	target
+11	2	controlled tau	432	1	1
+11	3	N_flip	432	0	0
+11	4	first intervention	432	10	none
+12	1	uncontrolled fate	444	1	target
+12	2	controlled tau	444	1	1
+12	3	N_flip	444	0	0
+12	4	first intervention	444	10	none
+13	1	uncontrolled fate	446	1	target
+13	2	controlled tau	446	1	1
+13	3	N_flip	446	0	0
+13	4	first intervention	446	10	none
+14	1	uncontrolled fate	448	1	target
+14	2	controlled tau	448	1	1
+14	3	N_flip	448	0	0
+14	4	first intervention	448	10	none
+15	1	uncontrolled fate	460	1	target
+15	2	controlled tau	460	1	1
+15	3	N_flip	460	0	0
+15	4	first intervention	460	10	none
+16	1	uncontrolled fate	462	1	target
+16	2	controlled tau	462	1	1
+16	3	N_flip	462	0	0
+16	4	first intervention	462	10	none
+17	1	uncontrolled fate	464	1	target
+17	2	controlled tau	464	1	1
+17	3	N_flip	464	0	0
+17	4	first intervention	464	10	none
+18	1	uncontrolled fate	476	1	target
+18	2	controlled tau	476	1	1
+18	3	N_flip	476	0	0
+18	4	first intervention	476	10	none
+19	1	uncontrolled fate	478	1	target
+19	2	controlled tau	478	1	1
+19	3	N_flip	478	0	0
+19	4	first intervention	478	10	none
+20	1	uncontrolled fate	480	1	target
+20	2	controlled tau	480	1	1
+20	3	N_flip	480	0	0
+20	4	first intervention	480	10	none
+21	1	uncontrolled fate	492	1	target
+21	2	controlled tau	492	1	1
+21	3	N_flip	492	0	0
+21	4	first intervention	492	10	none
+22	1	uncontrolled fate	494	1	target
+22	2	controlled tau	494	1	1
+22	3	N_flip	494	0	0
+22	4	first intervention	494	10	none
+23	1	uncontrolled fate	496	1	target
+23	2	controlled tau	496	1	1
+23	3	N_flip	496	0	0
+23	4	first intervention	496	10	none
+24	1	uncontrolled fate	508	1	target
+24	2	controlled tau	508	1	1
+24	3	N_flip	508	0	0
+24	4	first intervention	508	10	none
+25	1	uncontrolled fate	510	1	target
+25	2	controlled tau	510	1	1
+25	3	N_flip	510	0	0
+25	4	first intervention	510	10	none
+26	1	uncontrolled fate	138	1	target
+26	2	controlled tau	138	1	1
+26	3	N_flip	138	1	1
+26	4	first intervention	138	1	MBF
+27	1	uncontrolled fate	140	1	target
+27	2	controlled tau	140	1	1
+27	3	N_flip	140	1	1
+27	4	first intervention	140	1	MBF
+28	1	uncontrolled fate	142	1	target
+28	2	controlled tau	142	1	1
+28	3	N_flip	142	1	1
+28	4	first intervention	142	1	MBF
+29	1	uncontrolled fate	144	1	target
+29	2	controlled tau	144	1	1
+29	3	N_flip	144	1	1
+29	4	first intervention	144	1	MBF
+30	1	uncontrolled fate	156	1	target
+30	2	controlled tau	156	1	1
+30	3	N_flip	156	1	1
+30	4	first intervention	156	1	MBF
+31	1	uncontrolled fate	158	1	target
+31	2	controlled tau	158	1	1
+31	3	N_flip	158	1	1
+31	4	first intervention	158	1	MBF
+32	1	uncontrolled fate	160	1	target
+32	2	controlled tau	160	1	1
+32	3	N_flip	160	1	1
+32	4	first intervention	160	1	MBF
+33	1	uncontrolled fate	170	1	target
+33	2	controlled tau	170	1	1
+33	3	N_flip	170	1	1
+33	4	first intervention	170	1	MBF
+34	1	uncontrolled fate	172	1	target
+34	2	controlled tau	172	1	1
+34	3	N_flip	172	1	1
+34	4	first intervention	172	1	MBF
+35	1	uncontrolled fate	174	1	target
+35	2	controlled tau	174	1	1
+35	3	N_flip	174	1	1
+35	4	first intervention	174	1	MBF
+36	1	uncontrolled fate	176	1	target
+36	2	controlled tau	176	1	1
+36	3	N_flip	176	1	1
+36	4	first intervention	176	1	MBF
+37	1	uncontrolled fate	188	1	target
+37	2	controlled tau	188	1	1
+37	3	N_flip	188	1	1
+37	4	first intervention	188	1	MBF
+38	1	uncontrolled fate	190	1	target
+38	2	controlled tau	190	1	1
+38	3	N_flip	190	1	1
+38	4	first intervention	190	1	MBF
+39	1	uncontrolled fate	192	1	target
+39	2	controlled tau	192	1	1
+39	3	N_flip	192	1	1
+39	4	first intervention	192	1	MBF
+40	1	uncontrolled fate	204	1	target
+40	2	controlled tau	204	1	1
+40	3	N_flip	204	1	1
+40	4	first intervention	204	1	MBF
+41	1	uncontrolled fate	206	1	target
+41	2	controlled tau	206	1	1
+41	3	N_flip	206	1	1
+41	4	first intervention	206	1	MBF
+42	1	uncontrolled fate	208	1	target
+42	2	controlled tau	208	1	1
+42	3	N_flip	208	1	1
+42	4	first intervention	208	1	MBF
+43	1	uncontrolled fate	220	1	target
+43	2	controlled tau	220	1	1
+43	3	N_flip	220	1	1
+43	4	first intervention	220	1	MBF
+44	1	uncontrolled fate	222	1	target
+44	2	controlled tau	222	1	1
+44	3	N_flip	222	1	1
+44	4	first intervention	222	1	MBF
+45	1	uncontrolled fate	224	1	target
+45	2	controlled tau	224	1	1
+45	3	N_flip	224	1	1
+45	4	first intervention	224	1	MBF
+46	1	uncontrolled fate	236	1	target
+46	2	controlled tau	236	1	1
+46	3	N_flip	236	1	1
+46	4	first intervention	236	1	MBF
+47	1	uncontrolled fate	238	1	target
+47	2	controlled tau	238	1	1
+47	3	N_flip	238	1	1
+47	4	first intervention	238	1	MBF
+48	1	uncontrolled fate	240	1	target
+48	2	controlled tau	240	1	1
+48	3	N_flip	240	1	1
+48	4	first intervention	240	1	MBF
+49	1	uncontrolled fate	252	1	target
+49	2	controlled tau	252	1	1
+49	3	N_flip	252	1	1
+49	4	first intervention	252	1	MBF
+50	1	uncontrolled fate	254	1	target
+50	2	controlled tau	254	1	1
+50	3	N_flip	254	1	1
+50	4	first intervention	254	1	MBF
+51	1	uncontrolled fate	256	1	target
+51	2	controlled tau	256	1	1
+51	3	N_flip	256	1	1
+51	4	first intervention	256	1	MBF
+52	1	uncontrolled fate	298	1	target
+52	2	controlled tau	298	1	1
+52	3	N_flip	298	1	1
+52	4	first intervention	298	2	SBF
+53	1	uncontrolled fate	300	1	target
+53	2	controlled tau	300	1	1
+53	3	N_flip	300	1	1
+53	4	first intervention	300	2	SBF
+54	1	uncontrolled fate	302	1	target
+54	2	controlled tau	302	1	1
+54	3	N_flip	302	1	1
+54	4	first intervention	302	2	SBF
+55	1	uncontrolled fate	304	1	target
+55	2	controlled tau	304	1	1
+55	3	N_flip	304	1	1
+55	4	first intervention	304	2	SBF
+56	1	uncontrolled fate	316	1	target
+56	2	controlled tau	316	1	1
+56	3	N_flip	316	1	1
+56	4	first intervention	316	2	SBF
+57	1	uncontrolled fate	318	1	target
+57	2	controlled tau	318	1	1
+57	3	N_flip	318	1	1
+57	4	first intervention	318	2	SBF
+58	1	uncontrolled fate	320	1	target
+58	2	controlled tau	320	1	1
+58	3	N_flip	320	1	1
+58	4	first intervention	320	2	SBF
+59	1	uncontrolled fate	364	1	target
+59	2	controlled tau	364	1	1
+59	3	N_flip	364	1	1
+59	4	first intervention	364	2	SBF
+60	1	uncontrolled fate	366	1	target
+60	2	controlled tau	366	1	1
+60	3	N_flip	366	1	1
+60	4	first intervention	366	2	SBF
+61	1	uncontrolled fate	368	1	target
+61	2	controlled tau	368	1	1
+61	3	N_flip	368	1	1
+61	4	first intervention	368	2	SBF
+62	1	uncontrolled fate	380	1	target
+62	2	controlled tau	380	1	1
+62	3	N_flip	380	1	1
+62	4	first intervention	380	2	SBF
+63	1	uncontrolled fate	382	1	target
+63	2	controlled tau	382	1	1
+63	3	N_flip	382	1	1
+63	4	first intervention	382	2	SBF
+64	1	uncontrolled fate	384	1	target
+64	2	controlled tau	384	1	1
+64	3	N_flip	384	1	1
+64	4	first intervention	384	2	SBF
+65	1	uncontrolled fate	393	1	target
+65	2	controlled tau	393	1	1
+65	3	N_flip	393	1	1
+65	4	first intervention	393	9	CLN3
+66	1	uncontrolled fate	395	1	target
+66	2	controlled tau	395	1	1
+66	3	N_flip	395	1	1
+66	4	first intervention	395	9	CLN3
+67	1	uncontrolled fate	397	1	target
+67	2	controlled tau	397	1	1
+67	3	N_flip	397	1	1
+67	4	first intervention	397	9	CLN3
+68	1	uncontrolled fate	399	1	target
+68	2	controlled tau	399	1	1
+68	3	N_flip	399	1	1
+68	4	first intervention	399	9	CLN3
+69	1	uncontrolled fate	425	1	target
+69	2	controlled tau	425	1	1
+69	3	N_flip	425	1	1
+69	4	first intervention	425	9	CLN3
+70	1	uncontrolled fate	427	1	target
+70	2	controlled tau	427	1	1
+70	3	N_flip	427	1	1
+70	4	first intervention	427	9	CLN3
+71	1	uncontrolled fate	429	1	target
+71	2	controlled tau	429	1	1
+71	3	N_flip	429	1	1
+71	4	first intervention	429	9	CLN3
+72	1	uncontrolled fate	431	1	target
+72	2	controlled tau	431	1	1
+72	3	N_flip	431	1	1
+72	4	first intervention	431	9	CLN3
+73	1	uncontrolled fate	34	1	target
+73	2	controlled tau	34	2	2
+73	3	N_flip	34	0	0
+73	4	first intervention	34	10	none
+74	1	uncontrolled fate	36	1	target
+74	2	controlled tau	36	2	2
+74	3	N_flip	36	0	0
+74	4	first intervention	36	10	none
+75	1	uncontrolled fate	38	1	target
+75	2	controlled tau	38	2	2
+75	3	N_flip	38	0	0
+75	4	first intervention	38	10	none
+76	1	uncontrolled fate	40	1	target
+76	2	controlled tau	40	2	2
+76	3	N_flip	40	0	0
+76	4	first intervention	40	10	none
+77	1	uncontrolled fate	42	1	target
+77	2	controlled tau	42	2	2
+77	3	N_flip	42	0	0
+77	4	first intervention	42	10	none
+78	1	uncontrolled fate	44	1	target
+78	2	controlled tau	44	2	2
+78	3	N_flip	44	0	0
+78	4	first intervention	44	10	none
+79	1	uncontrolled fate	46	1	target
+79	2	controlled tau	46	2	2
+79	3	N_flip	46	0	0
+79	4	first intervention	46	10	none
+80	1	uncontrolled fate	48	1	target
+80	2	controlled tau	48	2	2
+80	3	N_flip	48	0	0
+80	4	first intervention	48	10	none
+81	1	uncontrolled fate	33	1	target
+81	2	controlled tau	33	2	2
+81	3	N_flip	33	1	1
+81	4	first intervention	33	1	MBF
+82	1	uncontrolled fate	35	1	target
+82	2	controlled tau	35	2	2
+82	3	N_flip	35	1	1
+82	4	first intervention	35	1	MBF
+83	1	uncontrolled fate	37	1	target
+83	2	controlled tau	37	2	2
+83	3	N_flip	37	1	1
+83	4	first intervention	37	1	MBF
+84	1	uncontrolled fate	39	1	target
+84	2	controlled tau	39	2	2
+84	3	N_flip	39	1	1
+84	4	first intervention	39	1	MBF
+85	1	uncontrolled fate	41	1	target
+85	2	controlled tau	41	2	2
+85	3	N_flip	41	1	1
+85	4	first intervention	41	1	MBF
+86	1	uncontrolled fate	43	1	target
+86	2	controlled tau	43	2	2
+86	3	N_flip	43	1	1
+86	4	first intervention	43	1	MBF
+87	1	uncontrolled fate	45	1	target
+87	2	controlled tau	45	2	2
+87	3	N_flip	45	1	1
+87	4	first intervention	45	1	MBF
+88	1	uncontrolled fate	47	1	target
+88	2	controlled tau	47	2	2
+88	3	N_flip	47	1	1
+88	4	first intervention	47	1	MBF
+89	1	uncontrolled fate	137	1	target
+89	2	controlled tau	137	2	2
+89	3	N_flip	137	1	1
+89	4	first intervention	137	1	MBF
+90	1	uncontrolled fate	139	1	target
+90	2	controlled tau	139	2	2
+90	3	N_flip	139	1	1
+90	4	first intervention	139	1	MBF
+91	1	uncontrolled fate	141	1	target
+91	2	controlled tau	141	2	2
+91	3	N_flip	141	1	1
+91	4	first intervention	141	1	MBF
+92	1	uncontrolled fate	143	1	target
+92	2	controlled tau	143	2	2
+92	3	N_flip	143	1	1
+92	4	first intervention	143	1	MBF
+93	1	uncontrolled fate	169	1	target
+93	2	controlled tau	169	2	2
+93	3	N_flip	169	1	1
+93	4	first intervention	169	1	MBF
+94	1	uncontrolled fate	171	1	target
+94	2	controlled tau	171	2	2
+94	3	N_flip	171	1	1
+94	4	first intervention	171	1	MBF
+95	1	uncontrolled fate	173	1	target
+95	2	controlled tau	173	2	2
+95	3	N_flip	173	1	1
+95	4	first intervention	173	1	MBF
+96	1	uncontrolled fate	175	1	target
+96	2	controlled tau	175	2	2
+96	3	N_flip	175	1	1
+96	4	first intervention	175	1	MBF
+97	1	uncontrolled fate	297	1	target
+97	2	controlled tau	297	2	2
+97	3	N_flip	297	1	1
+97	4	first intervention	297	1	MBF
+98	1	uncontrolled fate	299	1	target
+98	2	controlled tau	299	2	2
+98	3	N_flip	299	1	1
+98	4	first intervention	299	1	MBF
+99	1	uncontrolled fate	301	1	target
+99	2	controlled tau	301	2	2
+99	3	N_flip	301	1	1
+99	4	first intervention	301	1	MBF
+100	1	uncontrolled fate	303	1	target
+100	2	controlled tau	303	2	2
+100	3	N_flip	303	1	1
+100	4	first intervention	303	1	MBF
+101	1	uncontrolled fate	266	2	cycle
+101	2	controlled tau	266	1	1
+101	3	N_flip	266	1	1
+101	4	first intervention	266	2	SBF
+102	1	uncontrolled fate	268	2	cycle
+102	2	controlled tau	268	1	1
+102	3	N_flip	268	1	1
+102	4	first intervention	268	2	SBF
+103	1	uncontrolled fate	270	2	cycle
+103	2	controlled tau	270	1	1
+103	3	N_flip	270	1	1
+103	4	first intervention	270	2	SBF
+104	1	uncontrolled fate	272	2	cycle
+104	2	controlled tau	272	1	1
+104	3	N_flip	272	1	1
+104	4	first intervention	272	2	SBF
+105	1	uncontrolled fate	284	2	cycle
+105	2	controlled tau	284	1	1
+105	3	N_flip	284	1	1
+105	4	first intervention	284	2	SBF
+106	1	uncontrolled fate	286	2	cycle
+106	2	controlled tau	286	1	1
+106	3	N_flip	286	1	1
+106	4	first intervention	286	2	SBF
+107	1	uncontrolled fate	288	2	cycle
+107	2	controlled tau	288	1	1
+107	3	N_flip	288	1	1
+107	4	first intervention	288	2	SBF
+108	1	uncontrolled fate	332	2	cycle
+108	2	controlled tau	332	1	1
+108	3	N_flip	332	1	1
+108	4	first intervention	332	2	SBF
+109	1	uncontrolled fate	334	2	cycle
+109	2	controlled tau	334	1	1
+109	3	N_flip	334	1	1
+109	4	first intervention	334	2	SBF
+110	1	uncontrolled fate	336	2	cycle
+110	2	controlled tau	336	1	1
+110	3	N_flip	336	1	1
+110	4	first intervention	336	2	SBF
+111	1	uncontrolled fate	348	2	cycle
+111	2	controlled tau	348	1	1
+111	3	N_flip	348	1	1
+111	4	first intervention	348	2	SBF
+112	1	uncontrolled fate	350	2	cycle
+112	2	controlled tau	350	1	1
+112	3	N_flip	350	1	1
+112	4	first intervention	350	2	SBF
+113	1	uncontrolled fate	352	2	cycle
+113	2	controlled tau	352	1	1
+113	3	N_flip	352	1	1
+113	4	first intervention	352	2	SBF
+114	1	uncontrolled fate	458	2	cycle
+114	2	controlled tau	458	1	1
+114	3	N_flip	458	1	1
+114	4	first intervention	458	3	YOX1
+115	1	uncontrolled fate	490	2	cycle
+115	2	controlled tau	490	1	1
+115	3	N_flip	490	1	1
+115	4	first intervention	490	3	YOX1
+116	1	uncontrolled fate	410	2	cycle
+116	2	controlled tau	410	1	1
+116	3	N_flip	410	1	1
+116	4	first intervention	410	5	YHP1
+117	1	uncontrolled fate	442	2	cycle
+117	2	controlled tau	442	1	1
+117	3	N_flip	442	1	1
+117	4	first intervention	442	5	YHP1
+118	1	uncontrolled fate	386	2	cycle
+118	2	controlled tau	386	1	1
+118	3	N_flip	386	1	1
+118	4	first intervention	386	6	SFF
+119	1	uncontrolled fate	388	2	cycle
+119	2	controlled tau	388	1	1
+119	3	N_flip	388	1	1
+119	4	first intervention	388	6	SFF
+120	1	uncontrolled fate	390	2	cycle
+120	2	controlled tau	390	1	1
+120	3	N_flip	390	1	1
+120	4	first intervention	390	6	SFF
+121	1	uncontrolled fate	392	2	cycle
+121	2	controlled tau	392	1	1
+121	3	N_flip	392	1	1
+121	4	first intervention	392	6	SFF
+122	1	uncontrolled fate	404	2	cycle
+122	2	controlled tau	404	1	1
+122	3	N_flip	404	1	1
+122	4	first intervention	404	6	SFF
+123	1	uncontrolled fate	406	2	cycle
+123	2	controlled tau	406	1	1
+123	3	N_flip	406	1	1
+123	4	first intervention	406	6	SFF
+124	1	uncontrolled fate	408	2	cycle
+124	2	controlled tau	408	1	1
+124	3	N_flip	408	1	1
+124	4	first intervention	408	6	SFF
+125	1	uncontrolled fate	418	2	cycle
+125	2	controlled tau	418	1	1
+125	3	N_flip	418	1	1
+125	4	first intervention	418	6	SFF
+126	1	uncontrolled fate	420	2	cycle
+126	2	controlled tau	420	1	1
+126	3	N_flip	420	1	1
+126	4	first intervention	420	6	SFF
+127	1	uncontrolled fate	422	2	cycle
+127	2	controlled tau	422	1	1
+127	3	N_flip	422	1	1
+127	4	first intervention	422	6	SFF
+128	1	uncontrolled fate	424	2	cycle
+128	2	controlled tau	424	1	1
+128	3	N_flip	424	1	1
+128	4	first intervention	424	6	SFF
+129	1	uncontrolled fate	436	2	cycle
+129	2	controlled tau	436	1	1
+129	3	N_flip	436	1	1
+129	4	first intervention	436	6	SFF
+130	1	uncontrolled fate	438	2	cycle
+130	2	controlled tau	438	1	1
+130	3	N_flip	438	1	1
+130	4	first intervention	438	6	SFF
+131	1	uncontrolled fate	440	2	cycle
+131	2	controlled tau	440	1	1
+131	3	N_flip	440	1	1
+131	4	first intervention	440	6	SFF
+132	1	uncontrolled fate	452	2	cycle
+132	2	controlled tau	452	1	1
+132	3	N_flip	452	1	1
+132	4	first intervention	452	6	SFF
+133	1	uncontrolled fate	454	2	cycle
+133	2	controlled tau	454	1	1
+133	3	N_flip	454	1	1
+133	4	first intervention	454	6	SFF
+134	1	uncontrolled fate	456	2	cycle
+134	2	controlled tau	456	1	1
+134	3	N_flip	456	1	1
+134	4	first intervention	456	6	SFF
+135	1	uncontrolled fate	468	2	cycle
+135	2	controlled tau	468	1	1
+135	3	N_flip	468	1	1
+135	4	first intervention	468	6	SFF
+136	1	uncontrolled fate	470	2	cycle
+136	2	controlled tau	470	1	1
+136	3	N_flip	470	1	1
+136	4	first intervention	470	6	SFF
+137	1	uncontrolled fate	472	2	cycle
+137	2	controlled tau	472	1	1
+137	3	N_flip	472	1	1
+137	4	first intervention	472	6	SFF
+138	1	uncontrolled fate	484	2	cycle
+138	2	controlled tau	484	1	1
+138	3	N_flip	484	1	1
+138	4	first intervention	484	6	SFF
+139	1	uncontrolled fate	486	2	cycle
+139	2	controlled tau	486	1	1
+139	3	N_flip	486	1	1
+139	4	first intervention	486	6	SFF
+140	1	uncontrolled fate	488	2	cycle
+140	2	controlled tau	488	1	1
+140	3	N_flip	488	1	1
+140	4	first intervention	488	6	SFF
+141	1	uncontrolled fate	500	2	cycle
+141	2	controlled tau	500	1	1
+141	3	N_flip	500	1	1
+141	4	first intervention	500	6	SFF
+142	1	uncontrolled fate	502	2	cycle
+142	2	controlled tau	502	1	1
+142	3	N_flip	502	1	1
+142	4	first intervention	502	6	SFF
+143	1	uncontrolled fate	504	2	cycle
+143	2	controlled tau	504	1	1
+143	3	N_flip	504	1	1
+143	4	first intervention	504	6	SFF
+144	1	uncontrolled fate	474	2	cycle
+144	2	controlled tau	474	1	1
+144	3	N_flip	474	1	1
+144	4	first intervention	474	7	ACE2
+145	1	uncontrolled fate	506	2	cycle
+145	2	controlled tau	506	1	1
+145	3	N_flip	506	1	1
+145	4	first intervention	506	7	ACE2
+146	1	uncontrolled fate	411	2	cycle
+146	2	controlled tau	411	1	1
+146	3	N_flip	411	1	1
+146	4	first intervention	411	9	CLN3
+147	1	uncontrolled fate	413	2	cycle
+147	2	controlled tau	413	1	1
+147	3	N_flip	413	1	1
+147	4	first intervention	413	9	CLN3
+148	1	uncontrolled fate	415	2	cycle
+148	2	controlled tau	415	1	1
+148	3	N_flip	415	1	1
+148	4	first intervention	415	9	CLN3
+149	1	uncontrolled fate	443	2	cycle
+149	2	controlled tau	443	1	1
+149	3	N_flip	443	1	1
+149	4	first intervention	443	9	CLN3
+150	1	uncontrolled fate	445	2	cycle
+150	2	controlled tau	445	1	1
+150	3	N_flip	445	1	1
+150	4	first intervention	445	9	CLN3
+151	1	uncontrolled fate	447	2	cycle
+151	2	controlled tau	447	1	1
+151	3	N_flip	447	1	1
+151	4	first intervention	447	9	CLN3
+152	1	uncontrolled fate	459	2	cycle
+152	2	controlled tau	459	1	1
+152	3	N_flip	459	1	1
+152	4	first intervention	459	9	CLN3
+153	1	uncontrolled fate	461	2	cycle
+153	2	controlled tau	461	1	1
+153	3	N_flip	461	1	1
+153	4	first intervention	461	9	CLN3
+154	1	uncontrolled fate	463	2	cycle
+154	2	controlled tau	463	1	1
+154	3	N_flip	463	1	1
+154	4	first intervention	463	9	CLN3
+155	1	uncontrolled fate	475	2	cycle
+155	2	controlled tau	475	1	1
+155	3	N_flip	475	1	1
+155	4	first intervention	475	9	CLN3
+156	1	uncontrolled fate	477	2	cycle
+156	2	controlled tau	477	1	1
+156	3	N_flip	477	1	1
+156	4	first intervention	477	9	CLN3
+157	1	uncontrolled fate	479	2	cycle
+157	2	controlled tau	479	1	1
+157	3	N_flip	479	1	1
+157	4	first intervention	479	9	CLN3
+158	1	uncontrolled fate	491	2	cycle
+158	2	controlled tau	491	1	1
+158	3	N_flip	491	1	1
+158	4	first intervention	491	9	CLN3
+159	1	uncontrolled fate	493	2	cycle
+159	2	controlled tau	493	1	1
+159	3	N_flip	493	1	1
+159	4	first intervention	493	9	CLN3
+160	1	uncontrolled fate	495	2	cycle
+160	2	controlled tau	495	1	1
+160	3	N_flip	495	1	1
+160	4	first intervention	495	9	CLN3
+161	1	uncontrolled fate	507	2	cycle
+161	2	controlled tau	507	1	1
+161	3	N_flip	507	1	1
+161	4	first intervention	507	9	CLN3
+162	1	uncontrolled fate	509	2	cycle
+162	2	controlled tau	509	1	1
+162	3	N_flip	509	1	1
+162	4	first intervention	509	9	CLN3
+163	1	uncontrolled fate	511	2	cycle
+163	2	controlled tau	511	1	1
+163	3	N_flip	511	1	1
+163	4	first intervention	511	9	CLN3
+164	1	uncontrolled fate	52	2	cycle
+164	2	controlled tau	52	2	2
+164	3	N_flip	52	1	1
+164	4	first intervention	52	2	SBF
+165	1	uncontrolled fate	54	2	cycle
+165	2	controlled tau	54	2	2
+165	3	N_flip	54	1	1
+165	4	first intervention	54	2	SBF
+166	1	uncontrolled fate	56	2	cycle
+166	2	controlled tau	56	2	2
+166	3	N_flip	56	1	1
+166	4	first intervention	56	2	SBF
+167	1	uncontrolled fate	60	2	cycle
+167	2	controlled tau	60	2	2
+167	3	N_flip	60	1	1
+167	4	first intervention	60	2	SBF
+168	1	uncontrolled fate	62	2	cycle
+168	2	controlled tau	62	2	2
+168	3	N_flip	62	1	1
+168	4	first intervention	62	2	SBF
+169	1	uncontrolled fate	64	2	cycle
+169	2	controlled tau	64	2	2
+169	3	N_flip	64	1	1
+169	4	first intervention	64	2	SBF
+170	1	uncontrolled fate	100	2	cycle
+170	2	controlled tau	100	2	2
+170	3	N_flip	100	1	1
+170	4	first intervention	100	2	SBF
+171	1	uncontrolled fate	102	2	cycle
+171	2	controlled tau	102	2	2
+171	3	N_flip	102	1	1
+171	4	first intervention	102	2	SBF
+172	1	uncontrolled fate	104	2	cycle
+172	2	controlled tau	104	2	2
+172	3	N_flip	104	1	1
+172	4	first intervention	104	2	SBF
+173	1	uncontrolled fate	108	2	cycle
+173	2	controlled tau	108	2	2
+173	3	N_flip	108	1	1
+173	4	first intervention	108	2	SBF
+174	1	uncontrolled fate	110	2	cycle
+174	2	controlled tau	110	2	2
+174	3	N_flip	110	1	1
+174	4	first intervention	110	2	SBF
+175	1	uncontrolled fate	112	2	cycle
+175	2	controlled tau	112	2	2
+175	3	N_flip	112	1	1
+175	4	first intervention	112	2	SBF
+176	1	uncontrolled fate	116	2	cycle
+176	2	controlled tau	116	2	2
+176	3	N_flip	116	1	1
+176	4	first intervention	116	2	SBF
+177	1	uncontrolled fate	118	2	cycle
+177	2	controlled tau	118	2	2
+177	3	N_flip	118	1	1
+177	4	first intervention	118	2	SBF
+178	1	uncontrolled fate	120	2	cycle
+178	2	controlled tau	120	2	2
+178	3	N_flip	120	1	1
+178	4	first intervention	120	2	SBF
+179	1	uncontrolled fate	124	2	cycle
+179	2	controlled tau	124	2	2
+179	3	N_flip	124	1	1
+179	4	first intervention	124	2	SBF
+180	1	uncontrolled fate	126	2	cycle
+180	2	controlled tau	126	2	2
+180	3	N_flip	126	1	1
+180	4	first intervention	126	2	SBF
+181	1	uncontrolled fate	128	2	cycle
+181	2	controlled tau	128	2	2
+181	3	N_flip	128	1	1
+181	4	first intervention	128	2	SBF
+182	1	uncontrolled fate	98	2	cycle
+182	2	controlled tau	98	2	2
+182	3	N_flip	98	1	1
+182	4	first intervention	98	3	YOX1
+183	1	uncontrolled fate	106	2	cycle
+183	2	controlled tau	106	2	2
+183	3	N_flip	106	1	1
+183	4	first intervention	106	3	YOX1
+184	1	uncontrolled fate	130	2	cycle
+184	2	controlled tau	130	2	2
+184	3	N_flip	130	1	1
+184	4	first intervention	130	3	YOX1
+185	1	uncontrolled fate	132	2	cycle
+185	2	controlled tau	132	2	2
+185	3	N_flip	132	1	1
+185	4	first intervention	132	3	YOX1
+186	1	uncontrolled fate	134	2	cycle
+186	2	controlled tau	134	2	2
+186	3	N_flip	134	1	1
+186	4	first intervention	134	3	YOX1
+187	1	uncontrolled fate	136	2	cycle
+187	2	controlled tau	136	2	2
+187	3	N_flip	136	1	1
+187	4	first intervention	136	3	YOX1
+188	1	uncontrolled fate	162	2	cycle
+188	2	controlled tau	162	2	2
+188	3	N_flip	162	1	1
+188	4	first intervention	162	3	YOX1
+189	1	uncontrolled fate	164	2	cycle
+189	2	controlled tau	164	2	2
+189	3	N_flip	164	1	1
+189	4	first intervention	164	3	YOX1
+190	1	uncontrolled fate	166	2	cycle
+190	2	controlled tau	166	2	2
+190	3	N_flip	166	1	1
+190	4	first intervention	166	3	YOX1
+191	1	uncontrolled fate	168	2	cycle
+191	2	controlled tau	168	2	2
+191	3	N_flip	168	1	1
+191	4	first intervention	168	3	YOX1
+192	1	uncontrolled fate	202	2	cycle
+192	2	controlled tau	202	2	2
+192	3	N_flip	202	1	1
+192	4	first intervention	202	3	YOX1
+193	1	uncontrolled fate	234	2	cycle
+193	2	controlled tau	234	2	2
+193	3	N_flip	234	1	1
+193	4	first intervention	234	3	YOX1
+194	1	uncontrolled fate	290	2	cycle
+194	2	controlled tau	290	2	2
+194	3	N_flip	290	1	1
+194	4	first intervention	290	3	YOX1
+195	1	uncontrolled fate	292	2	cycle
+195	2	controlled tau	292	2	2
+195	3	N_flip	292	1	1
+195	4	first intervention	292	3	YOX1
+196	1	uncontrolled fate	294	2	cycle
+196	2	controlled tau	294	2	2
+196	3	N_flip	294	1	1
+196	4	first intervention	294	3	YOX1
+197	1	uncontrolled fate	296	2	cycle
+197	2	controlled tau	296	2	2
+197	3	N_flip	296	1	1
+197	4	first intervention	296	3	YOX1
+198	1	uncontrolled fate	308	2	cycle
+198	2	controlled tau	308	2	2
+198	3	N_flip	308	1	1
+198	4	first intervention	308	3	YOX1
+199	1	uncontrolled fate	310	2	cycle
+199	2	controlled tau	310	2	2
+199	3	N_flip	310	1	1
+199	4	first intervention	310	3	YOX1
+200	1	uncontrolled fate	312	2	cycle
+200	2	controlled tau	312	2	2
+200	3	N_flip	312	1	1
+200	4	first intervention	312	3	YOX1
+201	1	uncontrolled fate	356	2	cycle
+201	2	controlled tau	356	2	2
+201	3	N_flip	356	1	1
+201	4	first intervention	356	3	YOX1
+202	1	uncontrolled fate	358	2	cycle
+202	2	controlled tau	358	2	2
+202	3	N_flip	358	1	1
+202	4	first intervention	358	3	YOX1
+203	1	uncontrolled fate	360	2	cycle
+203	2	controlled tau	360	2	2
+203	3	N_flip	360	1	1
+203	4	first intervention	360	3	YOX1
+204	1	uncontrolled fate	372	2	cycle
+204	2	controlled tau	372	2	2
+204	3	N_flip	372	1	1
+204	4	first intervention	372	3	YOX1
+205	1	uncontrolled fate	374	2	cycle
+205	2	controlled tau	374	2	2
+205	3	N_flip	374	1	1
+205	4	first intervention	374	3	YOX1
+206	1	uncontrolled fate	376	2	cycle
+206	2	controlled tau	376	2	2
+206	3	N_flip	376	1	1
+206	4	first intervention	376	3	YOX1
+207	1	uncontrolled fate	50	2	cycle
+207	2	controlled tau	50	2	2
+207	3	N_flip	50	1	1
+207	4	first intervention	50	5	YHP1
+208	1	uncontrolled fate	58	2	cycle
+208	2	controlled tau	58	2	2
+208	3	N_flip	58	1	1
+208	4	first intervention	58	5	YHP1
+209	1	uncontrolled fate	154	2	cycle
+209	2	controlled tau	154	2	2
+209	3	N_flip	154	1	1
+209	4	first intervention	154	5	YHP1
+210	1	uncontrolled fate	186	2	cycle
+210	2	controlled tau	186	2	2
+210	3	N_flip	186	1	1
+210	4	first intervention	186	5	YHP1
+211	1	uncontrolled fate	2	2	cycle
+211	2	controlled tau	2	2	2
+211	3	N_flip	2	1	1
+211	4	first intervention	2	6	SFF
+212	1	uncontrolled fate	4	2	cycle
+212	2	controlled tau	4	2	2
+212	3	N_flip	4	1	1
+212	4	first intervention	4	6	SFF
+213	1	uncontrolled fate	6	2	cycle
+213	2	controlled tau	6	2	2
+213	3	N_flip	6	1	1
+213	4	first intervention	6	6	SFF
+214	1	uncontrolled fate	8	2	cycle
+214	2	controlled tau	8	2	2
+214	3	N_flip	8	1	1
+214	4	first intervention	8	6	SFF
+215	1	uncontrolled fate	10	2	cycle
+215	2	controlled tau	10	2	2
+215	3	N_flip	10	1	1
+215	4	first intervention	10	6	SFF
+216	1	uncontrolled fate	12	2	cycle
+216	2	controlled tau	12	2	2
+216	3	N_flip	12	1	1
+216	4	first intervention	12	6	SFF
+217	1	uncontrolled fate	14	2	cycle
+217	2	controlled tau	14	2	2
+217	3	N_flip	14	1	1
+217	4	first intervention	14	6	SFF
+218	1	uncontrolled fate	16	2	cycle
+218	2	controlled tau	16	2	2
+218	3	N_flip	16	1	1
+218	4	first intervention	16	6	SFF
+219	1	uncontrolled fate	314	2	cycle
+219	2	controlled tau	314	2	2
+219	3	N_flip	314	1	1
+219	4	first intervention	314	9	CLN3
+220	1	uncontrolled fate	315	2	cycle
+220	2	controlled tau	315	2	2
+220	3	N_flip	315	1	1
+220	4	first intervention	315	9	CLN3
+221	1	uncontrolled fate	317	2	cycle
+221	2	controlled tau	317	2	2
+221	3	N_flip	317	1	1
+221	4	first intervention	317	9	CLN3
+222	1	uncontrolled fate	319	2	cycle
+222	2	controlled tau	319	2	2
+222	3	N_flip	319	1	1
+222	4	first intervention	319	9	CLN3
+223	1	uncontrolled fate	362	2	cycle
+223	2	controlled tau	362	2	2
+223	3	N_flip	362	1	1
+223	4	first intervention	362	9	CLN3
+224	1	uncontrolled fate	363	2	cycle
+224	2	controlled tau	363	2	2
+224	3	N_flip	363	1	1
+224	4	first intervention	363	9	CLN3
+225	1	uncontrolled fate	365	2	cycle
+225	2	controlled tau	365	2	2
+225	3	N_flip	365	1	1
+225	4	first intervention	365	9	CLN3
+226	1	uncontrolled fate	367	2	cycle
+226	2	controlled tau	367	2	2
+226	3	N_flip	367	1	1
+226	4	first intervention	367	9	CLN3
+227	1	uncontrolled fate	378	2	cycle
+227	2	controlled tau	378	2	2
+227	3	N_flip	378	1	1
+227	4	first intervention	378	9	CLN3
+228	1	uncontrolled fate	379	2	cycle
+228	2	controlled tau	379	2	2
+228	3	N_flip	379	1	1
+228	4	first intervention	379	9	CLN3
+229	1	uncontrolled fate	381	2	cycle
+229	2	controlled tau	381	2	2
+229	3	N_flip	381	1	1
+229	4	first intervention	381	9	CLN3
+230	1	uncontrolled fate	383	2	cycle
+230	2	controlled tau	383	2	2
+230	3	N_flip	383	1	1
+230	4	first intervention	383	9	CLN3
+231	1	uncontrolled fate	289	2	cycle
+231	2	controlled tau	289	2	2
+231	3	N_flip	289	2	2
+231	4	first intervention	289	1	MBF
+232	1	uncontrolled fate	291	2	cycle
+232	2	controlled tau	291	2	2
+232	3	N_flip	291	2	2
+232	4	first intervention	291	1	MBF
+233	1	uncontrolled fate	293	2	cycle
+233	2	controlled tau	293	2	2
+233	3	N_flip	293	2	2
+233	4	first intervention	293	1	MBF
+234	1	uncontrolled fate	295	2	cycle
+234	2	controlled tau	295	2	2
+234	3	N_flip	295	2	2
+234	4	first intervention	295	1	MBF
+235	1	uncontrolled fate	28	2	cycle
+235	2	controlled tau	28	2	2
+235	3	N_flip	28	2	2
+235	4	first intervention	28	2	SBF
+236	1	uncontrolled fate	30	2	cycle
+236	2	controlled tau	30	2	2
+236	3	N_flip	30	2	2
+236	4	first intervention	30	2	SBF
+237	1	uncontrolled fate	32	2	cycle
+237	2	controlled tau	32	2	2
+237	3	N_flip	32	2	2
+237	4	first intervention	32	2	SBF
+238	1	uncontrolled fate	76	2	cycle
+238	2	controlled tau	76	2	2
+238	3	N_flip	76	2	2
+238	4	first intervention	76	2	SBF
+239	1	uncontrolled fate	78	2	cycle
+239	2	controlled tau	78	2	2
+239	3	N_flip	78	2	2
+239	4	first intervention	78	2	SBF
+240	1	uncontrolled fate	80	2	cycle
+240	2	controlled tau	80	2	2
+240	3	N_flip	80	2	2
+240	4	first intervention	80	2	SBF
+241	1	uncontrolled fate	92	2	cycle
+241	2	controlled tau	92	2	2
+241	3	N_flip	92	2	2
+241	4	first intervention	92	2	SBF
+242	1	uncontrolled fate	94	2	cycle
+242	2	controlled tau	94	2	2
+242	3	N_flip	94	2	2
+242	4	first intervention	94	2	SBF
+243	1	uncontrolled fate	96	2	cycle
+243	2	controlled tau	96	2	2
+243	3	N_flip	96	2	2
+243	4	first intervention	96	2	SBF
+244	1	uncontrolled fate	161	2	cycle
+244	2	controlled tau	161	2	2
+244	3	N_flip	161	2	2
+244	4	first intervention	161	2	SBF
+245	1	uncontrolled fate	163	2	cycle
+245	2	controlled tau	163	2	2
+245	3	N_flip	163	2	2
+245	4	first intervention	163	2	SBF
+246	1	uncontrolled fate	165	2	cycle
+246	2	controlled tau	165	2	2
+246	3	N_flip	165	2	2
+246	4	first intervention	165	2	SBF
+247	1	uncontrolled fate	167	2	cycle
+247	2	controlled tau	167	2	2
+247	3	N_flip	167	2	2
+247	4	first intervention	167	2	SBF
+248	1	uncontrolled fate	265	2	cycle
+248	2	controlled tau	265	2	2
+248	3	N_flip	265	2	2
+248	4	first intervention	265	2	SBF
+249	1	uncontrolled fate	267	2	cycle
+249	2	controlled tau	267	2	2
+249	3	N_flip	267	2	2
+249	4	first intervention	267	2	SBF
+250	1	uncontrolled fate	269	2	cycle
+250	2	controlled tau	269	2	2
+250	3	N_flip	269	2	2
+250	4	first intervention	269	2	SBF
+251	1	uncontrolled fate	271	2	cycle
+251	2	controlled tau	271	2	2
+251	3	N_flip	271	2	2
+251	4	first intervention	271	2	SBF
+252	1	uncontrolled fate	282	2	cycle
+252	2	controlled tau	282	2	2
+252	3	N_flip	282	2	2
+252	4	first intervention	282	2	SBF
+253	1	uncontrolled fate	330	2	cycle
+253	2	controlled tau	330	2	2
+253	3	N_flip	330	2	2
+253	4	first intervention	330	2	SBF
+254	1	uncontrolled fate	346	2	cycle
+254	2	controlled tau	346	2	2
+254	3	N_flip	346	2	2
+254	4	first intervention	346	2	SBF
+255	1	uncontrolled fate	66	2	cycle
+255	2	controlled tau	66	2	2
+255	3	N_flip	66	2	2
+255	4	first intervention	66	3	YOX1
+256	1	uncontrolled fate	74	2	cycle
+256	2	controlled tau	74	2	2
+256	3	N_flip	74	2	2
+256	4	first intervention	74	3	YOX1
+257	1	uncontrolled fate	97	2	cycle
+257	2	controlled tau	97	2	2
+257	3	N_flip	97	2	2
+257	4	first intervention	97	3	YOX1
+258	1	uncontrolled fate	99	2	cycle
+258	2	controlled tau	99	2	2
+258	3	N_flip	99	2	2
+258	4	first intervention	99	3	YOX1
+259	1	uncontrolled fate	101	2	cycle
+259	2	controlled tau	101	2	2
+259	3	N_flip	101	2	2
+259	4	first intervention	101	3	YOX1
+260	1	uncontrolled fate	103	2	cycle
+260	2	controlled tau	103	2	2
+260	3	N_flip	103	2	2
+260	4	first intervention	103	3	YOX1
+261	1	uncontrolled fate	105	2	cycle
+261	2	controlled tau	105	2	2
+261	3	N_flip	105	2	2
+261	4	first intervention	105	3	YOX1
+262	1	uncontrolled fate	107	2	cycle
+262	2	controlled tau	107	2	2
+262	3	N_flip	107	2	2
+262	4	first intervention	107	3	YOX1
+263	1	uncontrolled fate	109	2	cycle
+263	2	controlled tau	109	2	2
+263	3	N_flip	109	2	2
+263	4	first intervention	109	3	YOX1
+264	1	uncontrolled fate	111	2	cycle
+264	2	controlled tau	111	2	2
+264	3	N_flip	111	2	2
+264	4	first intervention	111	3	YOX1
+265	1	uncontrolled fate	194	2	cycle
+265	2	controlled tau	194	2	2
+265	3	N_flip	194	2	2
+265	4	first intervention	194	3	YOX1
+266	1	uncontrolled fate	201	2	cycle
+266	2	controlled tau	201	2	2
+266	3	N_flip	201	2	2
+266	4	first intervention	201	3	YOX1
+267	1	uncontrolled fate	226	2	cycle
+267	2	controlled tau	226	2	2
+267	3	N_flip	226	2	2
+267	4	first intervention	226	3	YOX1
+268	1	uncontrolled fate	233	2	cycle
+268	2	controlled tau	233	2	2
+268	3	N_flip	233	2	2
+268	4	first intervention	233	3	YOX1
+269	1	uncontrolled fate	361	2	cycle
+269	2	controlled tau	361	2	2
+269	3	N_flip	361	2	2
+269	4	first intervention	361	3	YOX1
+270	1	uncontrolled fate	457	2	cycle
+270	2	controlled tau	457	2	2
+270	3	N_flip	457	2	2
+270	4	first intervention	457	3	YOX1
+271	1	uncontrolled fate	489	2	cycle
+271	2	controlled tau	489	2	2
+271	3	N_flip	489	2	2
+271	4	first intervention	489	3	YOX1
+272	1	uncontrolled fate	1	2	cycle
+272	2	controlled tau	1	2	2
+272	3	N_flip	1	2	2
+272	4	first intervention	1	4	HCM1
+273	1	uncontrolled fate	3	2	cycle
+273	2	controlled tau	3	2	2
+273	3	N_flip	3	2	2
+273	4	first intervention	3	4	HCM1
+274	1	uncontrolled fate	5	2	cycle
+274	2	controlled tau	5	2	2
+274	3	N_flip	5	2	2
+274	4	first intervention	5	4	HCM1
+275	1	uncontrolled fate	7	2	cycle
+275	2	controlled tau	7	2	2
+275	3	N_flip	7	2	2
+275	4	first intervention	7	4	HCM1
+276	1	uncontrolled fate	9	2	cycle
+276	2	controlled tau	9	2	2
+276	3	N_flip	9	2	2
+276	4	first intervention	9	4	HCM1
+277	1	uncontrolled fate	11	2	cycle
+277	2	controlled tau	11	2	2
+277	3	N_flip	11	2	2
+277	4	first intervention	11	4	HCM1
+278	1	uncontrolled fate	13	2	cycle
+278	2	controlled tau	13	2	2
+278	3	N_flip	13	2	2
+278	4	first intervention	13	4	HCM1
+279	1	uncontrolled fate	15	2	cycle
+279	2	controlled tau	15	2	2
+279	3	N_flip	15	2	2
+279	4	first intervention	15	4	HCM1
+280	1	uncontrolled fate	20	2	cycle
+280	2	controlled tau	20	2	2
+280	3	N_flip	20	2	2
+280	4	first intervention	20	4	HCM1
+281	1	uncontrolled fate	22	2	cycle
+281	2	controlled tau	22	2	2
+281	3	N_flip	22	2	2
+281	4	first intervention	22	4	HCM1
+282	1	uncontrolled fate	24	2	cycle
+282	2	controlled tau	24	2	2
+282	3	N_flip	24	2	2
+282	4	first intervention	24	4	HCM1
+283	1	uncontrolled fate	68	2	cycle
+283	2	controlled tau	68	2	2
+283	3	N_flip	68	2	2
+283	4	first intervention	68	4	HCM1
+284	1	uncontrolled fate	70	2	cycle
+284	2	controlled tau	70	2	2
+284	3	N_flip	70	2	2
+284	4	first intervention	70	4	HCM1
+285	1	uncontrolled fate	72	2	cycle
+285	2	controlled tau	72	2	2
+285	3	N_flip	72	2	2
+285	4	first intervention	72	4	HCM1
+286	1	uncontrolled fate	84	2	cycle
+286	2	controlled tau	84	2	2
+286	3	N_flip	84	2	2
+286	4	first intervention	84	4	HCM1
+287	1	uncontrolled fate	86	2	cycle
+287	2	controlled tau	86	2	2
+287	3	N_flip	86	2	2
+287	4	first intervention	86	4	HCM1
+288	1	uncontrolled fate	88	2	cycle
+288	2	controlled tau	88	2	2
+288	3	N_flip	88	2	2
+288	4	first intervention	88	4	HCM1
+289	1	uncontrolled fate	18	2	cycle
+289	2	controlled tau	18	2	2
+289	3	N_flip	18	2	2
+289	4	first intervention	18	5	YHP1
+290	1	uncontrolled fate	26	2	cycle
+290	2	controlled tau	26	2	2
+290	3	N_flip	26	2	2
+290	4	first intervention	26	5	YHP1
+291	1	uncontrolled fate	49	2	cycle
+291	2	controlled tau	49	2	2
+291	3	N_flip	49	2	2
+291	4	first intervention	49	5	YHP1
+292	1	uncontrolled fate	51	2	cycle
+292	2	controlled tau	51	2	2
+292	3	N_flip	51	2	2
+292	4	first intervention	51	5	YHP1
+293	1	uncontrolled fate	53	2	cycle
+293	2	controlled tau	53	2	2
+293	3	N_flip	53	2	2
+293	4	first intervention	53	5	YHP1
+294	1	uncontrolled fate	55	2	cycle
+294	2	controlled tau	55	2	2
+294	3	N_flip	55	2	2
+294	4	first intervention	55	5	YHP1
+295	1	uncontrolled fate	57	2	cycle
+295	2	controlled tau	57	2	2
+295	3	N_flip	57	2	2
+295	4	first intervention	57	5	YHP1
+296	1	uncontrolled fate	59	2	cycle
+296	2	controlled tau	59	2	2
+296	3	N_flip	59	2	2
+296	4	first intervention	59	5	YHP1
+297	1	uncontrolled fate	61	2	cycle
+297	2	controlled tau	61	2	2
+297	3	N_flip	61	2	2
+297	4	first intervention	61	5	YHP1
+298	1	uncontrolled fate	63	2	cycle
+298	2	controlled tau	63	2	2
+298	3	N_flip	63	2	2
+298	4	first intervention	63	5	YHP1
+299	1	uncontrolled fate	146	2	cycle
+299	2	controlled tau	146	2	2
+299	3	N_flip	146	2	2
+299	4	first intervention	146	5	YHP1
+300	1	uncontrolled fate	153	2	cycle
+300	2	controlled tau	153	2	2
+300	3	N_flip	153	2	2
+300	4	first intervention	153	5	YHP1
+301	1	uncontrolled fate	178	2	cycle
+301	2	controlled tau	178	2	2
+301	3	N_flip	178	2	2
+301	4	first intervention	178	5	YHP1
+302	1	uncontrolled fate	185	2	cycle
+302	2	controlled tau	185	2	2
+302	3	N_flip	185	2	2
+302	4	first intervention	185	5	YHP1
+303	1	uncontrolled fate	313	2	cycle
+303	2	controlled tau	313	2	2
+303	3	N_flip	313	2	2
+303	4	first intervention	313	5	YHP1
+304	1	uncontrolled fate	409	2	cycle
+304	2	controlled tau	409	2	2
+304	3	N_flip	409	2	2
+304	4	first intervention	409	5	YHP1
+305	1	uncontrolled fate	441	2	cycle
+305	2	controlled tau	441	2	2
+305	3	N_flip	441	2	2
+305	4	first intervention	441	5	YHP1
+306	1	uncontrolled fate	129	2	cycle
+306	2	controlled tau	129	2	2
+306	3	N_flip	129	2	2
+306	4	first intervention	129	6	SFF
+307	1	uncontrolled fate	131	2	cycle
+307	2	controlled tau	131	2	2
+307	3	N_flip	131	2	2
+307	4	first intervention	131	6	SFF
+308	1	uncontrolled fate	133	2	cycle
+308	2	controlled tau	133	2	2
+308	3	N_flip	133	2	2
+308	4	first intervention	133	6	SFF
+309	1	uncontrolled fate	135	2	cycle
+309	2	controlled tau	135	2	2
+309	3	N_flip	135	2	2
+309	4	first intervention	135	6	SFF
+310	1	uncontrolled fate	148	2	cycle
+310	2	controlled tau	148	2	2
+310	3	N_flip	148	2	2
+310	4	first intervention	148	6	SFF
+311	1	uncontrolled fate	150	2	cycle
+311	2	controlled tau	150	2	2
+311	3	N_flip	150	2	2
+311	4	first intervention	150	6	SFF
+312	1	uncontrolled fate	152	2	cycle
+312	2	controlled tau	152	2	2
+312	3	N_flip	152	2	2
+312	4	first intervention	152	6	SFF
+313	1	uncontrolled fate	180	2	cycle
+313	2	controlled tau	180	2	2
+313	3	N_flip	180	2	2
+313	4	first intervention	180	6	SFF
+314	1	uncontrolled fate	182	2	cycle
+314	2	controlled tau	182	2	2
+314	3	N_flip	182	2	2
+314	4	first intervention	182	6	SFF
+315	1	uncontrolled fate	184	2	cycle
+315	2	controlled tau	184	2	2
+315	3	N_flip	184	2	2
+315	4	first intervention	184	6	SFF
+316	1	uncontrolled fate	196	2	cycle
+316	2	controlled tau	196	2	2
+316	3	N_flip	196	2	2
+316	4	first intervention	196	6	SFF
+317	1	uncontrolled fate	198	2	cycle
+317	2	controlled tau	198	2	2
+317	3	N_flip	198	2	2
+317	4	first intervention	198	6	SFF
+318	1	uncontrolled fate	200	2	cycle
+318	2	controlled tau	200	2	2
+318	3	N_flip	200	2	2
+318	4	first intervention	200	6	SFF
+319	1	uncontrolled fate	212	2	cycle
+319	2	controlled tau	212	2	2
+319	3	N_flip	212	2	2
+319	4	first intervention	212	6	SFF
+320	1	uncontrolled fate	214	2	cycle
+320	2	controlled tau	214	2	2
+320	3	N_flip	214	2	2
+320	4	first intervention	214	6	SFF
+321	1	uncontrolled fate	216	2	cycle
+321	2	controlled tau	216	2	2
+321	3	N_flip	216	2	2
+321	4	first intervention	216	6	SFF
+322	1	uncontrolled fate	228	2	cycle
+322	2	controlled tau	228	2	2
+322	3	N_flip	228	2	2
+322	4	first intervention	228	6	SFF
+323	1	uncontrolled fate	230	2	cycle
+323	2	controlled tau	230	2	2
+323	3	N_flip	230	2	2
+323	4	first intervention	230	6	SFF
+324	1	uncontrolled fate	232	2	cycle
+324	2	controlled tau	232	2	2
+324	3	N_flip	232	2	2
+324	4	first intervention	232	6	SFF
+325	1	uncontrolled fate	244	2	cycle
+325	2	controlled tau	244	2	2
+325	3	N_flip	244	2	2
+325	4	first intervention	244	6	SFF
+326	1	uncontrolled fate	246	2	cycle
+326	2	controlled tau	246	2	2
+326	3	N_flip	246	2	2
+326	4	first intervention	246	6	SFF
+327	1	uncontrolled fate	248	2	cycle
+327	2	controlled tau	248	2	2
+327	3	N_flip	248	2	2
+327	4	first intervention	248	6	SFF
+328	1	uncontrolled fate	258	2	cycle
+328	2	controlled tau	258	2	2
+328	3	N_flip	258	2	2
+328	4	first intervention	258	6	SFF
+329	1	uncontrolled fate	260	2	cycle
+329	2	controlled tau	260	2	2
+329	3	N_flip	260	2	2
+329	4	first intervention	260	6	SFF
+330	1	uncontrolled fate	262	2	cycle
+330	2	controlled tau	262	2	2
+330	3	N_flip	262	2	2
+330	4	first intervention	262	6	SFF
+331	1	uncontrolled fate	264	2	cycle
+331	2	controlled tau	264	2	2
+331	3	N_flip	264	2	2
+331	4	first intervention	264	6	SFF
+332	1	uncontrolled fate	276	2	cycle
+332	2	controlled tau	276	2	2
+332	3	N_flip	276	2	2
+332	4	first intervention	276	6	SFF
+333	1	uncontrolled fate	278	2	cycle
+333	2	controlled tau	278	2	2
+333	3	N_flip	278	2	2
+333	4	first intervention	278	6	SFF
+334	1	uncontrolled fate	280	2	cycle
+334	2	controlled tau	280	2	2
+334	3	N_flip	280	2	2
+334	4	first intervention	280	6	SFF
+335	1	uncontrolled fate	306	2	cycle
+335	2	controlled tau	306	2	2
+335	3	N_flip	306	2	2
+335	4	first intervention	306	6	SFF
+336	1	uncontrolled fate	324	2	cycle
+336	2	controlled tau	324	2	2
+336	3	N_flip	324	2	2
+336	4	first intervention	324	6	SFF
+337	1	uncontrolled fate	326	2	cycle
+337	2	controlled tau	326	2	2
+337	3	N_flip	326	2	2
+337	4	first intervention	326	6	SFF
+338	1	uncontrolled fate	328	2	cycle
+338	2	controlled tau	328	2	2
+338	3	N_flip	328	2	2
+338	4	first intervention	328	6	SFF
+339	1	uncontrolled fate	340	2	cycle
+339	2	controlled tau	340	2	2
+339	3	N_flip	340	2	2
+339	4	first intervention	340	6	SFF
+340	1	uncontrolled fate	342	2	cycle
+340	2	controlled tau	342	2	2
+340	3	N_flip	342	2	2
+340	4	first intervention	342	6	SFF
+341	1	uncontrolled fate	344	2	cycle
+341	2	controlled tau	344	2	2
+341	3	N_flip	344	2	2
+341	4	first intervention	344	6	SFF
+342	1	uncontrolled fate	354	2	cycle
+342	2	controlled tau	354	2	2
+342	3	N_flip	354	2	2
+342	4	first intervention	354	6	SFF
+343	1	uncontrolled fate	370	2	cycle
+343	2	controlled tau	370	2	2
+343	3	N_flip	370	2	2
+343	4	first intervention	370	6	SFF
+344	1	uncontrolled fate	385	2	cycle
+344	2	controlled tau	385	2	2
+344	3	N_flip	385	2	2
+344	4	first intervention	385	6	SFF
+345	1	uncontrolled fate	387	2	cycle
+345	2	controlled tau	387	2	2
+345	3	N_flip	387	2	2
+345	4	first intervention	387	6	SFF
+346	1	uncontrolled fate	389	2	cycle
+346	2	controlled tau	389	2	2
+346	3	N_flip	389	2	2
+346	4	first intervention	389	6	SFF
+347	1	uncontrolled fate	391	2	cycle
+347	2	controlled tau	391	2	2
+347	3	N_flip	391	2	2
+347	4	first intervention	391	6	SFF
+348	1	uncontrolled fate	402	2	cycle
+348	2	controlled tau	402	2	2
+348	3	N_flip	402	2	2
+348	4	first intervention	402	6	SFF
+349	1	uncontrolled fate	417	2	cycle
+349	2	controlled tau	417	2	2
+349	3	N_flip	417	2	2
+349	4	first intervention	417	6	SFF
+350	1	uncontrolled fate	419	2	cycle
+350	2	controlled tau	419	2	2
+350	3	N_flip	419	2	2
+350	4	first intervention	419	6	SFF
+351	1	uncontrolled fate	421	2	cycle
+351	2	controlled tau	421	2	2
+351	3	N_flip	421	2	2
+351	4	first intervention	421	6	SFF
+352	1	uncontrolled fate	423	2	cycle
+352	2	controlled tau	423	2	2
+352	3	N_flip	423	2	2
+352	4	first intervention	423	6	SFF
+353	1	uncontrolled fate	434	2	cycle
+353	2	controlled tau	434	2	2
+353	3	N_flip	434	2	2
+353	4	first intervention	434	6	SFF
+354	1	uncontrolled fate	450	2	cycle
+354	2	controlled tau	450	2	2
+354	3	N_flip	450	2	2
+354	4	first intervention	450	6	SFF
+355	1	uncontrolled fate	466	2	cycle
+355	2	controlled tau	466	2	2
+355	3	N_flip	466	2	2
+355	4	first intervention	466	6	SFF
+356	1	uncontrolled fate	482	2	cycle
+356	2	controlled tau	482	2	2
+356	3	N_flip	482	2	2
+356	4	first intervention	482	6	SFF
+357	1	uncontrolled fate	498	2	cycle
+357	2	controlled tau	498	2	2
+357	3	N_flip	498	2	2
+357	4	first intervention	498	6	SFF
+358	1	uncontrolled fate	114	2	cycle
+358	2	controlled tau	114	2	2
+358	3	N_flip	114	2	2
+358	4	first intervention	114	7	ACE2
+359	1	uncontrolled fate	122	2	cycle
+359	2	controlled tau	122	2	2
+359	3	N_flip	122	2	2
+359	4	first intervention	122	7	ACE2
+360	1	uncontrolled fate	218	2	cycle
+360	2	controlled tau	218	2	2
+360	3	N_flip	218	2	2
+360	4	first intervention	218	7	ACE2
+361	1	uncontrolled fate	250	2	cycle
+361	2	controlled tau	250	2	2
+361	3	N_flip	250	2	2
+361	4	first intervention	250	7	ACE2
+362	1	uncontrolled fate	283	2	cycle
+362	2	controlled tau	283	2	2
+362	3	N_flip	283	2	2
+362	4	first intervention	283	9	CLN3
+363	1	uncontrolled fate	285	2	cycle
+363	2	controlled tau	285	2	2
+363	3	N_flip	285	2	2
+363	4	first intervention	285	9	CLN3
+364	1	uncontrolled fate	287	2	cycle
+364	2	controlled tau	287	2	2
+364	3	N_flip	287	2	2
+364	4	first intervention	287	9	CLN3
+365	1	uncontrolled fate	307	2	cycle
+365	2	controlled tau	307	2	2
+365	3	N_flip	307	2	2
+365	4	first intervention	307	9	CLN3
+366	1	uncontrolled fate	309	2	cycle
+366	2	controlled tau	309	2	2
+366	3	N_flip	309	2	2
+366	4	first intervention	309	9	CLN3
+367	1	uncontrolled fate	311	2	cycle
+367	2	controlled tau	311	2	2
+367	3	N_flip	311	2	2
+367	4	first intervention	311	9	CLN3
+368	1	uncontrolled fate	331	2	cycle
+368	2	controlled tau	331	2	2
+368	3	N_flip	331	2	2
+368	4	first intervention	331	9	CLN3
+369	1	uncontrolled fate	333	2	cycle
+369	2	controlled tau	333	2	2
+369	3	N_flip	333	2	2
+369	4	first intervention	333	9	CLN3
+370	1	uncontrolled fate	335	2	cycle
+370	2	controlled tau	335	2	2
+370	3	N_flip	335	2	2
+370	4	first intervention	335	9	CLN3
+371	1	uncontrolled fate	347	2	cycle
+371	2	controlled tau	347	2	2
+371	3	N_flip	347	2	2
+371	4	first intervention	347	9	CLN3
+372	1	uncontrolled fate	349	2	cycle
+372	2	controlled tau	349	2	2
+372	3	N_flip	349	2	2
+372	4	first intervention	349	9	CLN3
+373	1	uncontrolled fate	351	2	cycle
+373	2	controlled tau	351	2	2
+373	3	N_flip	351	2	2
+373	4	first intervention	351	9	CLN3
+374	1	uncontrolled fate	355	2	cycle
+374	2	controlled tau	355	2	2
+374	3	N_flip	355	2	2
+374	4	first intervention	355	9	CLN3
+375	1	uncontrolled fate	357	2	cycle
+375	2	controlled tau	357	2	2
+375	3	N_flip	357	2	2
+375	4	first intervention	357	9	CLN3
+376	1	uncontrolled fate	359	2	cycle
+376	2	controlled tau	359	2	2
+376	3	N_flip	359	2	2
+376	4	first intervention	359	9	CLN3
+377	1	uncontrolled fate	371	2	cycle
+377	2	controlled tau	371	2	2
+377	3	N_flip	371	2	2
+377	4	first intervention	371	9	CLN3
+378	1	uncontrolled fate	373	2	cycle
+378	2	controlled tau	373	2	2
+378	3	N_flip	373	2	2
+378	4	first intervention	373	9	CLN3
+379	1	uncontrolled fate	375	2	cycle
+379	2	controlled tau	375	2	2
+379	3	N_flip	375	2	2
+379	4	first intervention	375	9	CLN3
+380	1	uncontrolled fate	377	2	cycle
+380	2	controlled tau	377	2	2
+380	3	N_flip	377	2	2
+380	4	first intervention	377	9	CLN3
+381	1	uncontrolled fate	403	2	cycle
+381	2	controlled tau	403	2	2
+381	3	N_flip	403	2	2
+381	4	first intervention	403	9	CLN3
+382	1	uncontrolled fate	405	2	cycle
+382	2	controlled tau	405	2	2
+382	3	N_flip	405	2	2
+382	4	first intervention	405	9	CLN3
+383	1	uncontrolled fate	407	2	cycle
+383	2	controlled tau	407	2	2
+383	3	N_flip	407	2	2
+383	4	first intervention	407	9	CLN3
+384	1	uncontrolled fate	435	2	cycle
+384	2	controlled tau	435	2	2
+384	3	N_flip	435	2	2
+384	4	first intervention	435	9	CLN3
+385	1	uncontrolled fate	437	2	cycle
+385	2	controlled tau	437	2	2
+385	3	N_flip	437	2	2
+385	4	first intervention	437	9	CLN3
+386	1	uncontrolled fate	439	2	cycle
+386	2	controlled tau	439	2	2
+386	3	N_flip	439	2	2
+386	4	first intervention	439	9	CLN3
+387	1	uncontrolled fate	451	2	cycle
+387	2	controlled tau	451	2	2
+387	3	N_flip	451	2	2
+387	4	first intervention	451	9	CLN3
+388	1	uncontrolled fate	453	2	cycle
+388	2	controlled tau	453	2	2
+388	3	N_flip	453	2	2
+388	4	first intervention	453	9	CLN3
+389	1	uncontrolled fate	455	2	cycle
+389	2	controlled tau	455	2	2
+389	3	N_flip	455	2	2
+389	4	first intervention	455	9	CLN3
+390	1	uncontrolled fate	467	2	cycle
+390	2	controlled tau	467	2	2
+390	3	N_flip	467	2	2
+390	4	first intervention	467	9	CLN3
+391	1	uncontrolled fate	469	2	cycle
+391	2	controlled tau	469	2	2
+391	3	N_flip	469	2	2
+391	4	first intervention	469	9	CLN3
+392	1	uncontrolled fate	471	2	cycle
+392	2	controlled tau	471	2	2
+392	3	N_flip	471	2	2
+392	4	first intervention	471	9	CLN3
+393	1	uncontrolled fate	473	2	cycle
+393	2	controlled tau	473	2	2
+393	3	N_flip	473	2	2
+393	4	first intervention	473	9	CLN3
+394	1	uncontrolled fate	483	2	cycle
+394	2	controlled tau	483	2	2
+394	3	N_flip	483	2	2
+394	4	first intervention	483	9	CLN3
+395	1	uncontrolled fate	485	2	cycle
+395	2	controlled tau	485	2	2
+395	3	N_flip	485	2	2
+395	4	first intervention	485	9	CLN3
+396	1	uncontrolled fate	487	2	cycle
+396	2	controlled tau	487	2	2
+396	3	N_flip	487	2	2
+396	4	first intervention	487	9	CLN3
+397	1	uncontrolled fate	499	2	cycle
+397	2	controlled tau	499	2	2
+397	3	N_flip	499	2	2
+397	4	first intervention	499	9	CLN3
+398	1	uncontrolled fate	501	2	cycle
+398	2	controlled tau	501	2	2
+398	3	N_flip	501	2	2
+398	4	first intervention	501	9	CLN3
+399	1	uncontrolled fate	503	2	cycle
+399	2	controlled tau	503	2	2
+399	3	N_flip	503	2	2
+399	4	first intervention	503	9	CLN3
+400	1	uncontrolled fate	505	2	cycle
+400	2	controlled tau	505	2	2
+400	3	N_flip	505	2	2
+400	4	first intervention	505	9	CLN3
+401	1	uncontrolled fate	155	2	cycle
+401	2	controlled tau	155	3	3
+401	3	N_flip	155	1	1
+401	4	first intervention	155	2	SBF
+402	1	uncontrolled fate	157	2	cycle
+402	2	controlled tau	157	3	3
+402	3	N_flip	157	1	1
+402	4	first intervention	157	2	SBF
+403	1	uncontrolled fate	159	2	cycle
+403	2	controlled tau	159	3	3
+403	3	N_flip	159	1	1
+403	4	first intervention	159	2	SBF
+404	1	uncontrolled fate	187	2	cycle
+404	2	controlled tau	187	3	3
+404	3	N_flip	187	1	1
+404	4	first intervention	187	2	SBF
+405	1	uncontrolled fate	189	2	cycle
+405	2	controlled tau	189	3	3
+405	3	N_flip	189	1	1
+405	4	first intervention	189	2	SBF
+406	1	uncontrolled fate	191	2	cycle
+406	2	controlled tau	191	3	3
+406	3	N_flip	191	1	1
+406	4	first intervention	191	2	SBF
+407	1	uncontrolled fate	203	2	cycle
+407	2	controlled tau	203	3	3
+407	3	N_flip	203	1	1
+407	4	first intervention	203	2	SBF
+408	1	uncontrolled fate	205	2	cycle
+408	2	controlled tau	205	3	3
+408	3	N_flip	205	1	1
+408	4	first intervention	205	2	SBF
+409	1	uncontrolled fate	207	2	cycle
+409	2	controlled tau	207	3	3
+409	3	N_flip	207	1	1
+409	4	first intervention	207	2	SBF
+410	1	uncontrolled fate	219	2	cycle
+410	2	controlled tau	219	3	3
+410	3	N_flip	219	1	1
+410	4	first intervention	219	2	SBF
+411	1	uncontrolled fate	221	2	cycle
+411	2	controlled tau	221	3	3
+411	3	N_flip	221	1	1
+411	4	first intervention	221	2	SBF
+412	1	uncontrolled fate	223	2	cycle
+412	2	controlled tau	223	3	3
+412	3	N_flip	223	1	1
+412	4	first intervention	223	2	SBF
+413	1	uncontrolled fate	235	2	cycle
+413	2	controlled tau	235	3	3
+413	3	N_flip	235	1	1
+413	4	first intervention	235	2	SBF
+414	1	uncontrolled fate	237	2	cycle
+414	2	controlled tau	237	3	3
+414	3	N_flip	237	1	1
+414	4	first intervention	237	2	SBF
+415	1	uncontrolled fate	239	2	cycle
+415	2	controlled tau	239	3	3
+415	3	N_flip	239	1	1
+415	4	first intervention	239	2	SBF
+416	1	uncontrolled fate	251	2	cycle
+416	2	controlled tau	251	3	3
+416	3	N_flip	251	1	1
+416	4	first intervention	251	2	SBF
+417	1	uncontrolled fate	253	2	cycle
+417	2	controlled tau	253	3	3
+417	3	N_flip	253	1	1
+417	4	first intervention	253	2	SBF
+418	1	uncontrolled fate	255	2	cycle
+418	2	controlled tau	255	3	3
+418	3	N_flip	255	1	1
+418	4	first intervention	255	2	SBF
+419	1	uncontrolled fate	147	2	cycle
+419	2	controlled tau	147	3	3
+419	3	N_flip	147	1	1
+419	4	first intervention	147	3	YOX1
+420	1	uncontrolled fate	149	2	cycle
+420	2	controlled tau	149	3	3
+420	3	N_flip	149	1	1
+420	4	first intervention	149	3	YOX1
+421	1	uncontrolled fate	151	2	cycle
+421	2	controlled tau	151	3	3
+421	3	N_flip	151	1	1
+421	4	first intervention	151	3	YOX1
+422	1	uncontrolled fate	179	2	cycle
+422	2	controlled tau	179	3	3
+422	3	N_flip	179	1	1
+422	4	first intervention	179	3	YOX1
+423	1	uncontrolled fate	181	2	cycle
+423	2	controlled tau	181	3	3
+423	3	N_flip	181	1	1
+423	4	first intervention	181	3	YOX1
+424	1	uncontrolled fate	183	2	cycle
+424	2	controlled tau	183	3	3
+424	3	N_flip	183	1	1
+424	4	first intervention	183	3	YOX1
+425	1	uncontrolled fate	195	2	cycle
+425	2	controlled tau	195	3	3
+425	3	N_flip	195	1	1
+425	4	first intervention	195	3	YOX1
+426	1	uncontrolled fate	197	2	cycle
+426	2	controlled tau	197	3	3
+426	3	N_flip	197	1	1
+426	4	first intervention	197	3	YOX1
+427	1	uncontrolled fate	199	2	cycle
+427	2	controlled tau	199	3	3
+427	3	N_flip	199	1	1
+427	4	first intervention	199	3	YOX1
+428	1	uncontrolled fate	211	2	cycle
+428	2	controlled tau	211	3	3
+428	3	N_flip	211	1	1
+428	4	first intervention	211	3	YOX1
+429	1	uncontrolled fate	213	2	cycle
+429	2	controlled tau	213	3	3
+429	3	N_flip	213	1	1
+429	4	first intervention	213	3	YOX1
+430	1	uncontrolled fate	215	2	cycle
+430	2	controlled tau	215	3	3
+430	3	N_flip	215	1	1
+430	4	first intervention	215	3	YOX1
+431	1	uncontrolled fate	227	2	cycle
+431	2	controlled tau	227	3	3
+431	3	N_flip	227	1	1
+431	4	first intervention	227	3	YOX1
+432	1	uncontrolled fate	229	2	cycle
+432	2	controlled tau	229	3	3
+432	3	N_flip	229	1	1
+432	4	first intervention	229	3	YOX1
+433	1	uncontrolled fate	231	2	cycle
+433	2	controlled tau	231	3	3
+433	3	N_flip	231	1	1
+433	4	first intervention	231	3	YOX1
+434	1	uncontrolled fate	243	2	cycle
+434	2	controlled tau	243	3	3
+434	3	N_flip	243	1	1
+434	4	first intervention	243	3	YOX1
+435	1	uncontrolled fate	245	2	cycle
+435	2	controlled tau	245	3	3
+435	3	N_flip	245	1	1
+435	4	first intervention	245	3	YOX1
+436	1	uncontrolled fate	247	2	cycle
+436	2	controlled tau	247	3	3
+436	3	N_flip	247	1	1
+436	4	first intervention	247	3	YOX1
+437	1	uncontrolled fate	275	2	cycle
+437	2	controlled tau	275	3	3
+437	3	N_flip	275	1	1
+437	4	first intervention	275	3	YOX1
+438	1	uncontrolled fate	277	2	cycle
+438	2	controlled tau	277	3	3
+438	3	N_flip	277	1	1
+438	4	first intervention	277	3	YOX1
+439	1	uncontrolled fate	279	2	cycle
+439	2	controlled tau	279	3	3
+439	3	N_flip	279	1	1
+439	4	first intervention	279	3	YOX1
+440	1	uncontrolled fate	323	2	cycle
+440	2	controlled tau	323	3	3
+440	3	N_flip	323	1	1
+440	4	first intervention	323	3	YOX1
+441	1	uncontrolled fate	325	2	cycle
+441	2	controlled tau	325	3	3
+441	3	N_flip	325	1	1
+441	4	first intervention	325	3	YOX1
+442	1	uncontrolled fate	327	2	cycle
+442	2	controlled tau	327	3	3
+442	3	N_flip	327	1	1
+442	4	first intervention	327	3	YOX1
+443	1	uncontrolled fate	339	2	cycle
+443	2	controlled tau	339	3	3
+443	3	N_flip	339	1	1
+443	4	first intervention	339	3	YOX1
+444	1	uncontrolled fate	341	2	cycle
+444	2	controlled tau	341	3	3
+444	3	N_flip	341	1	1
+444	4	first intervention	341	3	YOX1
+445	1	uncontrolled fate	343	2	cycle
+445	2	controlled tau	343	3	3
+445	3	N_flip	343	1	1
+445	4	first intervention	343	3	YOX1
+446	1	uncontrolled fate	19	2	cycle
+446	2	controlled tau	19	3	3
+446	3	N_flip	19	1	1
+446	4	first intervention	19	6	SFF
+447	1	uncontrolled fate	21	2	cycle
+447	2	controlled tau	21	3	3
+447	3	N_flip	21	1	1
+447	4	first intervention	21	6	SFF
+448	1	uncontrolled fate	23	2	cycle
+448	2	controlled tau	23	3	3
+448	3	N_flip	23	1	1
+448	4	first intervention	23	6	SFF
+449	1	uncontrolled fate	27	2	cycle
+449	2	controlled tau	27	3	3
+449	3	N_flip	27	1	1
+449	4	first intervention	27	6	SFF
+450	1	uncontrolled fate	29	2	cycle
+450	2	controlled tau	29	3	3
+450	3	N_flip	29	1	1
+450	4	first intervention	29	6	SFF
+451	1	uncontrolled fate	31	2	cycle
+451	2	controlled tau	31	3	3
+451	3	N_flip	31	1	1
+451	4	first intervention	31	6	SFF
+452	1	uncontrolled fate	67	2	cycle
+452	2	controlled tau	67	3	3
+452	3	N_flip	67	1	1
+452	4	first intervention	67	6	SFF
+453	1	uncontrolled fate	69	2	cycle
+453	2	controlled tau	69	3	3
+453	3	N_flip	69	1	1
+453	4	first intervention	69	6	SFF
+454	1	uncontrolled fate	71	2	cycle
+454	2	controlled tau	71	3	3
+454	3	N_flip	71	1	1
+454	4	first intervention	71	6	SFF
+455	1	uncontrolled fate	75	2	cycle
+455	2	controlled tau	75	3	3
+455	3	N_flip	75	1	1
+455	4	first intervention	75	6	SFF
+456	1	uncontrolled fate	77	2	cycle
+456	2	controlled tau	77	3	3
+456	3	N_flip	77	1	1
+456	4	first intervention	77	6	SFF
+457	1	uncontrolled fate	79	2	cycle
+457	2	controlled tau	79	3	3
+457	3	N_flip	79	1	1
+457	4	first intervention	79	6	SFF
+458	1	uncontrolled fate	83	2	cycle
+458	2	controlled tau	83	3	3
+458	3	N_flip	83	1	1
+458	4	first intervention	83	6	SFF
+459	1	uncontrolled fate	85	2	cycle
+459	2	controlled tau	85	3	3
+459	3	N_flip	85	1	1
+459	4	first intervention	85	6	SFF
+460	1	uncontrolled fate	87	2	cycle
+460	2	controlled tau	87	3	3
+460	3	N_flip	87	1	1
+460	4	first intervention	87	6	SFF
+461	1	uncontrolled fate	91	2	cycle
+461	2	controlled tau	91	3	3
+461	3	N_flip	91	1	1
+461	4	first intervention	91	6	SFF
+462	1	uncontrolled fate	93	2	cycle
+462	2	controlled tau	93	3	3
+462	3	N_flip	93	1	1
+462	4	first intervention	93	6	SFF
+463	1	uncontrolled fate	95	2	cycle
+463	2	controlled tau	95	3	3
+463	3	N_flip	95	1	1
+463	4	first intervention	95	6	SFF
+464	1	uncontrolled fate	115	2	cycle
+464	2	controlled tau	115	3	3
+464	3	N_flip	115	1	1
+464	4	first intervention	115	6	SFF
+465	1	uncontrolled fate	117	2	cycle
+465	2	controlled tau	117	3	3
+465	3	N_flip	117	1	1
+465	4	first intervention	117	6	SFF
+466	1	uncontrolled fate	119	2	cycle
+466	2	controlled tau	119	3	3
+466	3	N_flip	119	1	1
+466	4	first intervention	119	6	SFF
+467	1	uncontrolled fate	123	2	cycle
+467	2	controlled tau	123	3	3
+467	3	N_flip	123	1	1
+467	4	first intervention	123	6	SFF
+468	1	uncontrolled fate	125	2	cycle
+468	2	controlled tau	125	3	3
+468	3	N_flip	125	1	1
+468	4	first intervention	125	6	SFF
+469	1	uncontrolled fate	127	2	cycle
+469	2	controlled tau	127	3	3
+469	3	N_flip	127	1	1
+469	4	first intervention	127	6	SFF
+470	1	uncontrolled fate	257	2	cycle
+470	2	controlled tau	257	3	3
+470	3	N_flip	257	2	2
+470	4	first intervention	257	1	MBF
+471	1	uncontrolled fate	259	2	cycle
+471	2	controlled tau	259	3	3
+471	3	N_flip	259	2	2
+471	4	first intervention	259	1	MBF
+472	1	uncontrolled fate	261	2	cycle
+472	2	controlled tau	261	3	3
+472	3	N_flip	261	2	2
+472	4	first intervention	261	1	MBF
+473	1	uncontrolled fate	263	2	cycle
+473	2	controlled tau	263	3	3
+473	3	N_flip	263	2	2
+473	4	first intervention	263	1	MBF
+474	1	uncontrolled fate	90	2	cycle
+474	2	controlled tau	90	3	3
+474	3	N_flip	90	2	2
+474	4	first intervention	90	2	SBF
+475	1	uncontrolled fate	145	2	cycle
+475	2	controlled tau	145	3	3
+475	3	N_flip	145	2	2
+475	4	first intervention	145	3	YOX1
+476	1	uncontrolled fate	177	2	cycle
+476	2	controlled tau	177	3	3
+476	3	N_flip	177	2	2
+476	4	first intervention	177	3	YOX1
+477	1	uncontrolled fate	193	2	cycle
+477	2	controlled tau	193	3	3
+477	3	N_flip	193	2	2
+477	4	first intervention	193	3	YOX1
+478	1	uncontrolled fate	209	2	cycle
+478	2	controlled tau	209	3	3
+478	3	N_flip	209	2	2
+478	4	first intervention	209	3	YOX1
+479	1	uncontrolled fate	210	2	cycle
+479	2	controlled tau	210	3	3
+479	3	N_flip	210	2	2
+479	4	first intervention	210	3	YOX1
+480	1	uncontrolled fate	217	2	cycle
+480	2	controlled tau	217	3	3
+480	3	N_flip	217	2	2
+480	4	first intervention	217	3	YOX1
+481	1	uncontrolled fate	225	2	cycle
+481	2	controlled tau	225	3	3
+481	3	N_flip	225	2	2
+481	4	first intervention	225	3	YOX1
+482	1	uncontrolled fate	241	2	cycle
+482	2	controlled tau	241	3	3
+482	3	N_flip	241	2	2
+482	4	first intervention	241	3	YOX1
+483	1	uncontrolled fate	242	2	cycle
+483	2	controlled tau	242	3	3
+483	3	N_flip	242	2	2
+483	4	first intervention	242	3	YOX1
+484	1	uncontrolled fate	249	2	cycle
+484	2	controlled tau	249	3	3
+484	3	N_flip	249	2	2
+484	4	first intervention	249	3	YOX1
+485	1	uncontrolled fate	273	2	cycle
+485	2	controlled tau	273	3	3
+485	3	N_flip	273	2	2
+485	4	first intervention	273	3	YOX1
+486	1	uncontrolled fate	281	2	cycle
+486	2	controlled tau	281	3	3
+486	3	N_flip	281	2	2
+486	4	first intervention	281	3	YOX1
+487	1	uncontrolled fate	305	2	cycle
+487	2	controlled tau	305	3	3
+487	3	N_flip	305	2	2
+487	4	first intervention	305	3	YOX1
+488	1	uncontrolled fate	321	2	cycle
+488	2	controlled tau	321	3	3
+488	3	N_flip	321	2	2
+488	4	first intervention	321	3	YOX1
+489	1	uncontrolled fate	329	2	cycle
+489	2	controlled tau	329	3	3
+489	3	N_flip	329	2	2
+489	4	first intervention	329	3	YOX1
+490	1	uncontrolled fate	337	2	cycle
+490	2	controlled tau	337	3	3
+490	3	N_flip	337	2	2
+490	4	first intervention	337	3	YOX1
+491	1	uncontrolled fate	345	2	cycle
+491	2	controlled tau	345	3	3
+491	3	N_flip	345	2	2
+491	4	first intervention	345	3	YOX1
+492	1	uncontrolled fate	353	2	cycle
+492	2	controlled tau	353	3	3
+492	3	N_flip	353	2	2
+492	4	first intervention	353	3	YOX1
+493	1	uncontrolled fate	369	2	cycle
+493	2	controlled tau	369	3	3
+493	3	N_flip	369	2	2
+493	4	first intervention	369	3	YOX1
+494	1	uncontrolled fate	17	2	cycle
+494	2	controlled tau	17	3	3
+494	3	N_flip	17	2	2
+494	4	first intervention	17	4	HCM1
+495	1	uncontrolled fate	25	2	cycle
+495	2	controlled tau	25	3	3
+495	3	N_flip	25	2	2
+495	4	first intervention	25	4	HCM1
+496	1	uncontrolled fate	65	2	cycle
+496	2	controlled tau	65	3	3
+496	3	N_flip	65	2	2
+496	4	first intervention	65	4	HCM1
+497	1	uncontrolled fate	73	2	cycle
+497	2	controlled tau	73	3	3
+497	3	N_flip	73	2	2
+497	4	first intervention	73	4	HCM1
+498	1	uncontrolled fate	81	2	cycle
+498	2	controlled tau	81	3	3
+498	3	N_flip	81	2	2
+498	4	first intervention	81	4	HCM1
+499	1	uncontrolled fate	89	2	cycle
+499	2	controlled tau	89	3	3
+499	3	N_flip	89	2	2
+499	4	first intervention	89	4	HCM1
+500	1	uncontrolled fate	113	2	cycle
+500	2	controlled tau	113	3	3
+500	3	N_flip	113	2	2
+500	4	first intervention	113	4	HCM1
+501	1	uncontrolled fate	121	2	cycle
+501	2	controlled tau	121	3	3
+501	3	N_flip	121	2	2
+501	4	first intervention	121	4	HCM1
+502	1	uncontrolled fate	82	2	cycle
+502	2	controlled tau	82	3	3
+502	3	N_flip	82	3	3
+502	4	first intervention	82	4	HCM1
+503	1	uncontrolled fate	274	2	cycle
+503	2	controlled tau	274	3	3
+503	3	N_flip	274	3	3
+503	4	first intervention	274	4	HCM1
+504	1	uncontrolled fate	322	2	cycle
+504	2	controlled tau	322	3	3
+504	3	N_flip	322	3	3
+504	4	first intervention	322	4	HCM1
+505	1	uncontrolled fate	338	2	cycle
+505	2	controlled tau	338	3	3
+505	3	N_flip	338	3	3
+505	4	first intervention	338	4	HCM1
+506	1	uncontrolled fate	401	2	cycle
+506	2	controlled tau	401	4	4
+506	3	N_flip	401	2	2
+506	4	first intervention	401	4	HCM1
+507	1	uncontrolled fate	433	2	cycle
+507	2	controlled tau	433	4	4
+507	3	N_flip	433	2	2
+507	4	first intervention	433	4	HCM1
+508	1	uncontrolled fate	449	2	cycle
+508	2	controlled tau	449	4	4
+508	3	N_flip	449	2	2
+508	4	first intervention	449	4	HCM1
+509	1	uncontrolled fate	465	2	cycle
+509	2	controlled tau	465	4	4
+509	3	N_flip	465	2	2
+509	4	first intervention	465	4	HCM1
+510	1	uncontrolled fate	481	2	cycle
+510	2	controlled tau	481	4	4
+510	3	N_flip	481	2	2
+510	4	first intervention	481	4	HCM1
+511	1	uncontrolled fate	497	2	cycle
+511	2	controlled tau	497	4	4
+511	3	N_flip	497	2	2
+511	4	first intervention	497	4	HCM1

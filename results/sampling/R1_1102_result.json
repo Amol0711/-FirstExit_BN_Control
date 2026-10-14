@@ -1,0 +1,103 @@
+{
+  "bound_kind": "floating_residual_estimate_not_interval_certificate",
+  "error_bound_estimate": 0.0009054051574796959,
+  "implementation": "passive-sampling-1.0",
+  "last_rng_state_sha256": "9685ddcdcea78b17216f040507248076f09a619c05f2a55a03c2e0d1b9f8b7c8",
+  "law": {
+    "01": {
+      "10": 0.1669683391533005,
+      "dagger": 0.8330316608466996
+    },
+    "10": {
+      "10": 0.09909976619521266,
+      "dagger": 0.9009002338047873
+    },
+    "11": {
+      "10": 0.30847309290198266,
+      "dagger": 0.6915269070980173
+    }
+  },
+  "matching_mode_action_pairs": 3,
+  "model": "R1",
+  "modes": {
+    "01": {
+      "action": [],
+      "physical_successor": "00",
+      "successor": "dagger"
+    },
+    "10": {
+      "action": [],
+      "physical_successor": "00",
+      "successor": "dagger"
+    },
+    "11": {
+      "action": [
+        1
+      ],
+      "physical_successor": "00",
+      "successor": "dagger"
+    }
+  },
+  "observed_desirability_error": 0.0005416237797455925,
+  "policy_paths": {
+    "01": {
+      "hitting_time": 1,
+      "intervention_cost": "0",
+      "proper": true
+    },
+    "10": {
+      "hitting_time": 1,
+      "intervention_cost": "0",
+      "proper": true
+    },
+    "11": {
+      "hitting_time": 1,
+      "intervention_cost": "2/5",
+      "proper": true
+    }
+  },
+  "proper_states": 3,
+  "residual": 0.0005723252141123236,
+  "restarts": {
+    "01": 17198,
+    "10": 17437,
+    "11": 17371
+  },
+  "seed": 1102,
+  "settings": {
+    "max_updates": 1000000,
+    "omega": 0.75,
+    "path_cap": 3,
+    "scan_every": 1000,
+    "tolerance": 0.001
+  },
+  "states": [
+    "01",
+    "10",
+    "11"
+  ],
+  "status": "RESIDUAL_TOLERANCE_MET",
+  "undefined_policy_rows": [],
+  "visits": {
+    "01": 17198,
+    "10": 45431,
+    "11": 17371
+  },
+  "work": {
+    "cap_events": 1667,
+    "episodes": 52006,
+    "interrupted_episodes": 0,
+    "residual_edge_visits": 480,
+    "residual_scans": 80,
+    "sample_updates": 80000,
+    "sampler_edge_visits": 130339,
+    "target_events": 50339,
+    "zero_boundary_events": 0
+  },
+  "z": {
+    "01": 0.2638172438624684,
+    "10": 0.2990132353671447,
+    "11": 0.21361101181688447,
+    "dagger": 1.0
+  }
+}

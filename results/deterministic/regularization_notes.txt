@@ -1,0 +1,6 @@
+Reference distribution nu is uniform on each feasible successor set Y(x).
+P_epsilon=(1-epsilon)P+epsilon*nu; support remains Y(x).
+Infeasible positive passive probability count: 0.
+Maximum MAP-action changes versus epsilon=0 over tested levels: 0.
+Smoothed actions use -log(P_epsilon)+J_epsilon; no exact-reference gap claim is made.
+This file records deterministic regularization checks. Sampling histories are produced separately by run_sampling.py.

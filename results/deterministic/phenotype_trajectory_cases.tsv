@@ -1,0 +1,3 @@
+case_id	state_delta	state_bits	uncontrolled_fate	uncontrolled_tau	controlled_tau	N_flip	first_intervention	intervention_sequence	selection_reason	display_horizon	uncontrolled_stop_reason	uncontrolled_repeat_time	uncontrolled_display_horizon
+case1	2	111111110	cycle	inf	2	1	SFF	6	representative rescued cycle-basin state: median tau/flip burden among cycle-basin states	7	cycle_repeat	2	7
+case2	82	110101110	cycle	inf	3	3	HCM1	4;2;1	harder rescued cycle-basin state: maximal N_flip, then maximal tau_T	3	max_steps	none	10

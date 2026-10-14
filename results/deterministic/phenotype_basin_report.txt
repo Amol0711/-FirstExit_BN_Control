@@ -1,0 +1,22 @@
+Basin-wide 9-node phenotype-steering evaluations
+State convention: delta_512^1=111111111, delta_512^512=000000000.
+Intervention family: F_s^{(1)}={empty,{1},...,{9}} with unit singleton weights.
+Uncontrolled target basin size over all 512 states: 101
+Uncontrolled competing-cycle basin size over all 512 states: 411
+Competing cycle: delta512^128 -> delta512^272 -> delta512^488 -> delta512^506 -> delta512^511 -> delta512^128
+Controlled finite-value non-target states: 511
+N_B=511, A=10, E_B=3315, N_B*A=5110, compression=1.54148
+Controlled tau histogram: {1: 135, 2: 265, 3: 105, 4: 6}
+Uncontrolled tau histogram: {'inf': 411, 1: 25, 4: 20, 2: 29, 3: 26}
+Flip-count histogram: {0: 33, 1: 266, 2: 208, 3: 4}
+First nonempty intervention histogram: {'4': 35, '6': 110, '5': 23, '2': 83, '1': 54, 'none': 33, '3': 90, '7': 6, '9': 77}
+Total intervention-node histogram: {4: 35, 1: 149, 6: 136, 5: 23, 2: 124, 3: 110, 9: 93, 7: 24}
+Policy-policy-summary states: 511
+Tau/flip joint classes: 9
+Intervention-order total count: 694
+Trajectory cases: case1=delta512^2 tau=2 flips=1 reason=representative rescued cycle-basin state: median tau/flip burden among cycle-basin states; case2=delta512^82 tau=3 flips=3 reason=harder rescued cycle-basin state: maximal N_flip, then maximal tau_T
+Ensemble trajectory cohort size (cycle basin): 411
+Intervention-time heatmap horizon: 0..3
+MAP deterministic-optimal states: 511/511
+Gap-condition states: 63/511
+Max local suboptimality: 0

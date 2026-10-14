@@ -1,0 +1,10 @@
+delta-index round trips: OK
+V1: uncompressed/compressed value error 0, A=4, E_B=17, MAP_exact=7/7
+V2: uncompressed/compressed value error 0, A=4, E_B=7, MAP_exact=7/7
+V3: uncompressed/compressed value error 0, A=4, E_B=22, MAP_exact=6/6
+V4: uncompressed/compressed value error 0, A=4, E_B=14, MAP_exact=7/7
+R1: uncompressed/compressed value error 0, A=4, E_B=6, MAP_exact=3/3
+R2: uncompressed/compressed value error 0, A=4, E_B=22, MAP_exact=6/7
+MAP-recovery local suboptimality checks: OK
+9-node attractor and rollout checks: OK
+9-node action-budget/MAP helpers: OK (A_r1=10, A_r2=46, P9-r1 MAP exact=511/511)

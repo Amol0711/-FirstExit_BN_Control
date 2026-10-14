@@ -1,0 +1,91 @@
+{
+  "beta": 0.36787944117144233,
+  "mode": {
+    "01": {
+      "action": [],
+      "physical_successor": "00",
+      "successor": "dagger"
+    },
+    "10": {
+      "action": [],
+      "physical_successor": "00",
+      "successor": "dagger"
+    },
+    "11": {
+      "action": [
+        1
+      ],
+      "physical_successor": "00",
+      "successor": "dagger"
+    }
+  },
+  "reference_residual": 5.551115123125783e-17,
+  "rows": {
+    "01": [
+      {
+        "action": [
+          1
+        ],
+        "cost": 0.4,
+        "physical_successor": "10",
+        "probability": 0.401312339887548,
+        "successor": "10"
+      },
+      {
+        "action": [],
+        "cost": 0.0,
+        "physical_successor": "00",
+        "probability": 0.598687660112452,
+        "successor": "dagger"
+      }
+    ],
+    "10": [
+      {
+        "action": [
+          2
+        ],
+        "cost": 1.0,
+        "physical_successor": "10",
+        "probability": 0.2689414213699951,
+        "successor": "10"
+      },
+      {
+        "action": [],
+        "cost": 0.0,
+        "physical_successor": "00",
+        "probability": 0.7310585786300049,
+        "successor": "dagger"
+      }
+    ],
+    "11": [
+      {
+        "action": [],
+        "cost": 0.0,
+        "physical_successor": "10",
+        "probability": 0.598687660112452,
+        "successor": "10"
+      },
+      {
+        "action": [
+          1
+        ],
+        "cost": 0.4,
+        "physical_successor": "00",
+        "probability": 0.401312339887548,
+        "successor": "dagger"
+      }
+    ]
+  },
+  "states": [
+    "01",
+    "10",
+    "11"
+  ],
+  "z": {
+    "01": 0.2643096066885337,
+    "10": 0.2984716115873991,
+    "11": 0.2133714041592208,
+    "dagger": 1.0
+  },
+  "zero_boundary": []
+}

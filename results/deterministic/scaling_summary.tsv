@@ -1,0 +1,2 @@
+num_cases	max_sweeps	max_raw_storage	max_model_storage	max_desirability_storage	min_compression_factor	max_compression_factor
+5	30	761856	10305	511	1.54147812971	2048

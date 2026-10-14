@@ -1,0 +1,20 @@
+Mode-recovery condition-sweep
+Exact decimal-input deterministic gaps/optimality; numerical KL mismatch and modes.
+Gap test uses Delta > 2*epsilon + 1e-9, not interval-certified arithmetic.
+weight grid: (0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.5, 2.0)
+weight_grid_size: 8
+finite_gap_points: 617
+infinite_gap_points: 23
+strict_gap_comparison_tolerance: 1e-9
+deterministic_cost_arithmetic: exact_decimal_fraction
+total_state_weight_points: 640
+condition_met_exact_points: 376
+map_deterministic_optimal_points: 623
+condition_not_met_but_exact_points: 247
+bounded_loss_points: 17
+loss_bound_violations: 0
+condition_met_transfer_violations: 0
+max_local_loss_minus_2epsilon: -0.164170253096
+min_loss_bound_slack: 0.164170253096
+max_local_loss_over_2epsilon: 0.49991787952
+max_case_compression_factor: 4

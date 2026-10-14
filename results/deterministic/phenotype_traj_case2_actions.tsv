@@ -1,0 +1,5 @@
+case_id	time	action	action_label	flipped_node_idx	flipped_node_name	nonempty	cumulative_flips	target_hit_after_action
+case2	0	{4}	HCM1	4	HCM1	True	1	False
+case2	1	{2}	SBF	2	SBF	True	2	False
+case2	2	{1}	MBF	1	MBF	True	3	True
+case2	3	target	target	10	target	False	3	False

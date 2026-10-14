@@ -1,0 +1,192 @@
+{
+  "bound_kind": "floating_residual_estimate_not_interval_certificate",
+  "error_bound_estimate": 0.0005714002303045423,
+  "implementation": "passive-sampling-1.0",
+  "last_rng_state_sha256": "3da49dad530a6421887a67793e0840b8de24167a4a3c258146a9c9c0a26fbf2a",
+  "law": {
+    "000": {
+      "000": 0.16065510006914963,
+      "010": 0.20145178713443967,
+      "011": 0.09427264406674053,
+      "dagger": 0.5436204687296702
+    },
+    "010": {
+      "000": 0.031652841282656205,
+      "010": 0.03969075019423137,
+      "011": 0.13724383177176322,
+      "dagger": 0.7914125767513492
+    },
+    "011": {
+      "011": 0.14778752454853433,
+      "dagger": 0.8522124754514656
+    },
+    "100": {
+      "000": 0.11791871652842872,
+      "010": 0.3290750352920389,
+      "011": 0.1539960211553412,
+      "dagger": 0.3990102270241911
+    },
+    "101": {
+      "011": 0.27847067128497743,
+      "dagger": 0.7215293287150225
+    },
+    "110": {
+      "000": 0.026012315840309636,
+      "010": 0.07259240945956061,
+      "011": 0.25101214723885173,
+      "dagger": 0.6503831274612779
+    },
+    "111": {
+      "011": 0.27847067128497743,
+      "dagger": 0.7215293287150225
+    }
+  },
+  "matching_mode_action_pairs": 7,
+  "model": "R2",
+  "modes": {
+    "000": {
+      "action": [
+        2
+      ],
+      "physical_successor": "001",
+      "successor": "dagger"
+    },
+    "010": {
+      "action": [],
+      "physical_successor": "001",
+      "successor": "dagger"
+    },
+    "011": {
+      "action": [],
+      "physical_successor": "001",
+      "successor": "dagger"
+    },
+    "100": {
+      "action": [
+        1,
+        2
+      ],
+      "physical_successor": "001",
+      "successor": "dagger"
+    },
+    "101": {
+      "action": [
+        1
+      ],
+      "physical_successor": "001",
+      "successor": "dagger"
+    },
+    "110": {
+      "action": [
+        1
+      ],
+      "physical_successor": "001",
+      "successor": "dagger"
+    },
+    "111": {
+      "action": [
+        1
+      ],
+      "physical_successor": "001",
+      "successor": "dagger"
+    }
+  },
+  "observed_desirability_error": 0.0004303837133353139,
+  "policy_paths": {
+    "000": {
+      "hitting_time": 1,
+      "intervention_cost": "1",
+      "proper": true
+    },
+    "010": {
+      "hitting_time": 1,
+      "intervention_cost": "0",
+      "proper": true
+    },
+    "011": {
+      "hitting_time": 1,
+      "intervention_cost": "0",
+      "proper": true
+    },
+    "100": {
+      "hitting_time": 1,
+      "intervention_cost": "7/5",
+      "proper": true
+    },
+    "101": {
+      "hitting_time": 1,
+      "intervention_cost": "2/5",
+      "proper": true
+    },
+    "110": {
+      "hitting_time": 1,
+      "intervention_cost": "2/5",
+      "proper": true
+    },
+    "111": {
+      "hitting_time": 1,
+      "intervention_cost": "2/5",
+      "proper": true
+    }
+  },
+  "proper_states": 7,
+  "residual": 0.00036119383289487383,
+  "restarts": {
+    "000": 39116,
+    "010": 39602,
+    "011": 39061,
+    "100": 38992,
+    "101": 39022,
+    "110": 39277,
+    "111": 39290
+  },
+  "seed": 1105,
+  "settings": {
+    "max_updates": 1000000,
+    "omega": 0.75,
+    "path_cap": 7,
+    "scan_every": 1000,
+    "tolerance": 0.001
+  },
+  "states": [
+    "000",
+    "010",
+    "011",
+    "100",
+    "101",
+    "110",
+    "111"
+  ],
+  "status": "RESIDUAL_TOLERANCE_MET",
+  "undefined_policy_rows": [],
+  "visits": {
+    "000": 127598,
+    "010": 111438,
+    "011": 256383,
+    "100": 38992,
+    "101": 39022,
+    "110": 39277,
+    "111": 39290
+  },
+  "work": {
+    "cap_events": 4313,
+    "episodes": 274360,
+    "interrupted_episodes": 0,
+    "residual_edge_visits": 14344,
+    "residual_scans": 652,
+    "sample_updates": 652000,
+    "sampler_edge_visits": 1304931,
+    "target_events": 270047,
+    "zero_boundary_events": 0
+  },
+  "z": {
+    "000": 0.10871869591829297,
+    "010": 0.203375500465741,
+    "011": 0.25870670223170794,
+    "100": 0.09980347397034828,
+    "101": 0.20497458022975648,
+    "110": 0.16614582869651515,
+    "111": 0.2049522661943699,
+    "dagger": 1.0
+  }
+}

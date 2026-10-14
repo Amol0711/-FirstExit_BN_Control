@@ -1,0 +1,2 @@
+target	competing_cycle	target_uncontrolled_basin_size	cycle_uncontrolled_basin_size	controlled_non_target_states	N_B	A	E_B	N_B_times_A	compression_factor	unit_intervention_weight	max_tau_T	median_tau_T	mean_tau_T	max_N_flip	median_N_flip	mean_N_flip	uncontrolled_not_hit_count	MAP_exact_states	gap_condition_met_states	max_local_loss
+delta512^512	delta512^128->delta512^272->delta512^488->delta512^506->delta512^511->delta512^128	101	411	511	511	10	3315	5110	1.54147812971	1.0	4	2	1.96477	3	1	1.35812	411	511/511	63/511	0
