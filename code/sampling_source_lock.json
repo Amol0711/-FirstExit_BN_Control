@@ -1,0 +1,10 @@
+{
+  "implementation": "passive-sampling-1.0",
+  "sha256": {
+    "passive_sampling.py": "25fcb488d001619387578e48191677a41f3e698eda544e213558cb6f7e2dfcd6",
+    "run_sampling.py": "21f0ddacfe33daa1285a6d69c50f339a48fb99ac4f8ef9bc432eb7c52e2121c6",
+    "sampling_models.json": "61515fba2a47198b25e1ac5957f92026843dcfb2e1499d0b5ba9fc2df6f183b1",
+    "sampling_settings.json": "d081c9c5708ddb10881873d120be0dc88483ca0e8bae1f847dae51b7d4cde300",
+    "test_sampling.py": "492d333aa9c1f7f036200a42a015f384d252a287dbac5005171cc5f711556b60"
+  }
+}

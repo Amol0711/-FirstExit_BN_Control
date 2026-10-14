@@ -1,0 +1,87 @@
+NUMERICAL MODELS AND SOURCE ATTRIBUTION
+=====================================
+
+State and action encoding
+-------------------------
+A state is an n-bit string in the declared node order. Node positions start at
+one. An action is a sorted tuple of node positions to flip before applying the
+synchronous Boolean update. The empty tuple is no intervention. The delta index
+is 2^n minus the integer represented by the bit string, so index 1 is the all-one
+state and index 2^n is the all-zero state. Physical arrivals in a multi-state
+target are retained even when a solver uses a single terminal symbol.
+
+V1--V4 and R1/R2
+---------------
+V1 is a synthetic fixed-point variant of the example associated with Z. Liu,
+J. Zhong, Y. Liu and W. Gui, "Weak Stabilization of Boolean Networks Under
+State-Flipped Control," IEEE Transactions on Neural Networks and Learning
+Systems 34(5), 2693--2700, 2023. It is not the unmodified biological model.
+Its complete update is f(110)=110 and f(x)=(not x2, x1 and not x3, x2) otherwise.
+The target is {110}. All three target coordinates act as markers.
+
+V2 has f(x)=(0,x3,0) and target {000}.
+V3 has f(x)=(x1,not x2,x1 and x3) and target {100,110}.
+V4 has f(x)=(0,x1,x1 or x3) and target {001}.
+All four cases permit (), (1,), (2,) and (1,2), with zero intervention costs
+and unit cost at each pre-target step.
+
+R1 has f(x)=(x1 and x2,0), target {00}, and eligible flip nodes 1 and 2.
+R2 has f(x)=(0,x1,x2 or x3), target {001}, and eligible flip nodes 1 and 2.
+The default node weights are 0.4 and 1.0; recovery and comparison sweeps use
+the explicit decimal-weight grid in README.txt. Complete sampling truth tables
+are in code/sampling_models.json. The actual action families, target sets and
+costs are part of the inputs, not inferred from plotting labels.
+
+Nine-node synchronous model
+--------------------------
+The node order is (MBF, SBF, YOX1, HCM1, YHP1, SFF, ACE2, SWI5, CLN3).
+The model is motivated by D. A. Orlando et al., "Global Control of Cell-Cycle
+Transcription by Coupled CDK and Network Oscillators," Nature 453(7197),
+944--947, 2008. The equations below define the numerical model used here.
+An exact transcription check against the original supplementary rule table is
+not established. The model should not be presented as independently validated
+experimental biology.
+
+With eta = not (x3 and x5), the ordered next-state coordinates are
+
+    x9,
+    (x9 or x1) and eta,
+    x1 and x2,
+    x1 and x2,
+    x1 or x2,
+    x2 and x4,
+    x6,
+    x6,
+    (x8 and x7) and eta.
+
+The target is 000000000. P9-r1 permits the empty action and all nine singleton
+flips. P9-r2 additionally permits all two-node flips. Node weights are one;
+every pre-target step costs one. The basin-wide phenotype producer uses P9-r1.
+The uncontrolled target basin has 101 states and the competing cycle basin
+has 411; all 511 non-target states are controllable in the declared input.
+These are computations on the Boolean rule, not experimental response rates.
+
+Synthetic accounting cases
+--------------------------
+S70, S100 and S200 are analytic storage and repeated-sweep count scenarios.
+They are not exhaustive realizations, memory measurements or timing experiments
+for Boolean networks with 70, 100 or 200 nodes. N_syn labels the synthetic state
+count parameter and must not be interpreted as Boolean dimension. The control
+parameters m_ctrl are 8, 10 and 12, respectively. The generation formula is
+implemented in code/run_scaling.py. The cumulative-count horizon is 30 sweeps.
+
+Comparator attribution
+----------------------
+TW-DP-H is a numerical reimplementation adapted from the dynamic-programming
+algorithm in M. Toyoda and Y. Wu, "Kullback--Leibler Control in Boolean Control
+Networks," IEEE Transactions on Cybernetics 54(8), 4429--4442, 2024. The adaptation
+uses zero KL weight and the declared first-exit objective, with the horizon and
+terminal penalty implemented in code/comparison_solvers.py. It is not the
+original authors' full KL controller or an unchanged reproduction of their
+finite-horizon experiments. The other recorded methods are raw-action reverse
+Dijkstra (U-SP), compressed reverse Dijkstra (C-SP), and sparse desirability
+iteration followed by deterministic mode selection (C-KL-MODE).
+
+These attributions identify model or algorithm sources. They do not assert
+copyright ownership, third-party code redistribution rights, or a software
+license. No upstream third-party implementation is identified as bundled here.
