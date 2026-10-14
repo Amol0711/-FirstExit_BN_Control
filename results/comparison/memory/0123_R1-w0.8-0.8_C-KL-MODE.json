@@ -1,0 +1,203 @@
+{
+  "config": {
+    "id": "R1-w0.8-0.8",
+    "model": "R1",
+    "weights": [
+      "0.8",
+      "0.8"
+    ]
+  },
+  "first_result": {
+    "A": 4,
+    "C_successor_calls": 12,
+    "E_B": 6,
+    "E_all": 6,
+    "N0": 3,
+    "N_B": 3,
+    "N_total": 4,
+    "actions": [
+      [],
+      [
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "config": "R1-w0.8-0.8",
+    "domain": [
+      3,
+      2,
+      1
+    ],
+    "failure_status": "OK",
+    "memory": {
+      "RSS_above_empty_worker_bytes": 0,
+      "empty_worker_RSS_bytes": 101605376,
+      "graph_allocation_bytes": 1472,
+      "graph_payload_bytes": 144,
+      "graph_row_records": 6,
+      "logical_policy_entries": 3,
+      "measurement_qualification": "Payload arrays are allocated bytes; other numeric-equivalent fields exclude Python overhead. RSS measured separately.",
+      "peak_RSS_bytes": 101605376,
+      "policy_allocation_bytes": 2455,
+      "policy_numeric_equivalent_bytes": 48,
+      "reference_allocation_bytes": 644,
+      "reference_entries": 6,
+      "reference_payload_bytes": 48,
+      "retained_controller_allocation_bytes": 5545,
+      "stored_policy_entries": 3,
+      "value_live_allocation_bytes": 432,
+      "value_numeric_entries": 12,
+      "value_numeric_equivalent_bytes": 96
+    },
+    "method": "C-KL-MODE",
+    "mode_scores": {
+      "1": {
+        "best_score": 0.0,
+        "chosen_score": 0.0,
+        "near_tie_candidates": [
+          -1
+        ]
+      },
+      "2": {
+        "best_score": 0.0,
+        "chosen_score": 0.0,
+        "near_tie_candidates": [
+          -1
+        ]
+      },
+      "3": {
+        "best_score": 0.8,
+        "chosen_score": 0.8,
+        "near_tie_candidates": [
+          -1
+        ]
+      }
+    },
+    "near_tie_count": 0,
+    "outcomes": [
+      {
+        "cost10": 18,
+        "delta_index": 1,
+        "first_action": 1,
+        "first_successor": -1,
+        "flipped_nodes": 1,
+        "hitting_time": 1,
+        "initial": 3,
+        "initial_bits": "11",
+        "nonempty_interventions": 1,
+        "path": [
+          [
+            3,
+            1,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 2,
+        "first_action": 0,
+        "first_successor": -1,
+        "flipped_nodes": 0,
+        "hitting_time": 1,
+        "initial": 2,
+        "initial_bits": "10",
+        "nonempty_interventions": 0,
+        "path": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 3,
+        "first_action": 0,
+        "first_successor": -1,
+        "flipped_nodes": 0,
+        "hitting_time": 1,
+        "initial": 1,
+        "initial_bits": "01",
+        "nonempty_interventions": 0,
+        "path": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      }
+    ],
+    "phases": {
+      "basin_ns": 14321,
+      "graph_build_ns": 130072,
+      "model_validation_ns": 339203,
+      "properness_ns": 24827,
+      "recovery_ns": 18498,
+      "reference_ns": 17736,
+      "solve_ns": 68932,
+      "total_no_diagnostic_ns": 613589
+    },
+    "result_signature": "d83f073efdb0f33b422cad482458006944e796e8b52fa383ea28733277fac133",
+    "solver": {
+      "edge_visits": 168,
+      "error_estimate": 1.4020039643219294e-13,
+      "numeric_value_entries": 12,
+      "residual": 8.862355294070312e-14,
+      "status": "NUMERICAL_RESIDUAL_MET",
+      "sweeps": 14
+    },
+    "validation": {
+      "common_marker_indices": [
+        1,
+        2
+      ],
+      "model_sha256": "6ee5226b2db69fa1565486632002b7a54bb9c1d4fa529352e9724f9a945458c5",
+      "target_cycle_size": 1,
+      "validation_update_calls": 4
+    },
+    "values": {
+      "-1": 1.0,
+      "1": 0.28650375725420396,
+      "2": 0.28650375725420396,
+      "3": 0.186774526029562
+    }
+  },
+  "import_ns": 5504592,
+  "memory": true,
+  "method": "C-KL-MODE",
+  "status": "OK",
+  "timestamp": "2026-10-11T08:28:41.973062+00:00",
+  "trials": [
+    {
+      "index": 0,
+      "phase": "memory",
+      "phases": {
+        "basin_ns": 14321,
+        "graph_build_ns": 130072,
+        "model_validation_ns": 339203,
+        "properness_ns": 24827,
+        "recovery_ns": 18498,
+        "reference_ns": 17736,
+        "solve_ns": 68932,
+        "total_no_diagnostic_ns": 613589
+      },
+      "result_signature": "d83f073efdb0f33b422cad482458006944e796e8b52fa383ea28733277fac133",
+      "status": "OK",
+      "trial_wall_ns": 810820
+    }
+  ],
+  "worker_process_elapsed_ns": 627613826,
+  "worker_returncode": 0
+}
