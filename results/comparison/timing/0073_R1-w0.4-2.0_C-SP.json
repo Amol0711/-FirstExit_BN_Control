@@ -1,0 +1,364 @@
+{
+  "config": {
+    "id": "R1-w0.4-2.0",
+    "model": "R1",
+    "weights": [
+      "0.4",
+      "2.0"
+    ]
+  },
+  "first_result": {
+    "A": 4,
+    "C_successor_calls": 12,
+    "E_B": 6,
+    "E_all": 6,
+    "N0": 3,
+    "N_B": 3,
+    "N_total": 4,
+    "actions": [
+      [],
+      [
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2
+      ]
+    ],
+    "config": "R1-w0.4-2.0",
+    "domain": [
+      3,
+      2,
+      1
+    ],
+    "failure_status": "OK",
+    "method": "C-SP",
+    "mode_scores": {},
+    "near_tie_count": 0,
+    "outcomes": [
+      {
+        "cost10": 14,
+        "delta_index": 1,
+        "first_action": 1,
+        "first_successor": -1,
+        "flipped_nodes": 1,
+        "hitting_time": 1,
+        "initial": 3,
+        "initial_bits": "11",
+        "nonempty_interventions": 1,
+        "path": [
+          [
+            3,
+            1,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 2,
+        "first_action": 0,
+        "first_successor": -1,
+        "flipped_nodes": 0,
+        "hitting_time": 1,
+        "initial": 2,
+        "initial_bits": "10",
+        "nonempty_interventions": 0,
+        "path": [
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      },
+      {
+        "cost10": 10,
+        "delta_index": 3,
+        "first_action": 0,
+        "first_successor": -1,
+        "flipped_nodes": 0,
+        "hitting_time": 1,
+        "initial": 1,
+        "initial_bits": "01",
+        "nonempty_interventions": 0,
+        "path": [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "status": "PROPER"
+      }
+    ],
+    "phases": {
+      "basin_ns": 14802,
+      "graph_build_ns": 88111,
+      "model_validation_ns": 331862,
+      "properness_ns": 22994,
+      "recovery_ns": 8633,
+      "reference_ns": 0,
+      "solve_ns": 13150,
+      "total_no_diagnostic_ns": 479552
+    },
+    "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+    "solver": {
+      "edge_visits": 12,
+      "heap_pushes": 4,
+      "numeric_value_entries": 4,
+      "status": "EXACT_INTEGER_SOLUTION",
+      "sweeps": 0
+    },
+    "validation": {
+      "common_marker_indices": [
+        1,
+        2
+      ],
+      "model_sha256": "ddc7daddc50270bd87a17b132a1c6abf0e3088ee6f5fc7941fa3be45ea1661f7",
+      "target_cycle_size": 1,
+      "validation_update_calls": 4
+    },
+    "values": {
+      "-1": 0,
+      "1": 10,
+      "2": 10,
+      "3": 14
+    }
+  },
+  "import_ns": 4195169,
+  "memory": false,
+  "method": "C-SP",
+  "status": "OK",
+  "timestamp": "2026-10-11T08:19:23.867848+00:00",
+  "trials": [
+    {
+      "index": 0,
+      "phase": "warmup",
+      "phases": {
+        "basin_ns": 14802,
+        "graph_build_ns": 88111,
+        "model_validation_ns": 331862,
+        "properness_ns": 22994,
+        "recovery_ns": 8633,
+        "reference_ns": 0,
+        "solve_ns": 13150,
+        "total_no_diagnostic_ns": 479552
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 525418
+    },
+    {
+      "index": 1,
+      "phase": "warmup",
+      "phases": {
+        "basin_ns": 10966,
+        "graph_build_ns": 73339,
+        "model_validation_ns": 242519,
+        "properness_ns": 16795,
+        "recovery_ns": 6720,
+        "reference_ns": 0,
+        "solve_ns": 10796,
+        "total_no_diagnostic_ns": 361135
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 404640
+    },
+    {
+      "index": 2,
+      "phase": "warmup",
+      "phases": {
+        "basin_ns": 11246,
+        "graph_build_ns": 70254,
+        "model_validation_ns": 262529,
+        "properness_ns": 18137,
+        "recovery_ns": 5879,
+        "reference_ns": 0,
+        "solve_ns": 9154,
+        "total_no_diagnostic_ns": 377199
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 419182
+    },
+    {
+      "index": 3,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 34871,
+        "graph_build_ns": 68511,
+        "model_validation_ns": 237102,
+        "properness_ns": 16945,
+        "recovery_ns": 6400,
+        "reference_ns": 0,
+        "solve_ns": 8853,
+        "total_no_diagnostic_ns": 372682
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 415586
+    },
+    {
+      "index": 4,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 10396,
+        "graph_build_ns": 68922,
+        "model_validation_ns": 244101,
+        "properness_ns": 16354,
+        "recovery_ns": 5859,
+        "reference_ns": 0,
+        "solve_ns": 9615,
+        "total_no_diagnostic_ns": 355247
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 395456
+    },
+    {
+      "index": 5,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 10065,
+        "graph_build_ns": 85407,
+        "model_validation_ns": 253166,
+        "properness_ns": 16104,
+        "recovery_ns": 6219,
+        "reference_ns": 0,
+        "solve_ns": 9114,
+        "total_no_diagnostic_ns": 380075
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 420964
+    },
+    {
+      "index": 6,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 10005,
+        "graph_build_ns": 68172,
+        "model_validation_ns": 236711,
+        "properness_ns": 16725,
+        "recovery_ns": 5799,
+        "reference_ns": 0,
+        "solve_ns": 8503,
+        "total_no_diagnostic_ns": 345915
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 384570
+    },
+    {
+      "index": 7,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 9595,
+        "graph_build_ns": 67981,
+        "model_validation_ns": 234507,
+        "properness_ns": 35903,
+        "recovery_ns": 6109,
+        "reference_ns": 0,
+        "solve_ns": 9674,
+        "total_no_diagnostic_ns": 363769
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 403999
+    },
+    {
+      "index": 8,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 46529,
+        "graph_build_ns": 66879,
+        "model_validation_ns": 247096,
+        "properness_ns": 17766,
+        "recovery_ns": 6730,
+        "reference_ns": 0,
+        "solve_ns": 9985,
+        "total_no_diagnostic_ns": 394985
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 438770
+    },
+    {
+      "index": 9,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 9905,
+        "graph_build_ns": 68832,
+        "model_validation_ns": 240256,
+        "properness_ns": 16695,
+        "recovery_ns": 5669,
+        "reference_ns": 0,
+        "solve_ns": 9023,
+        "total_no_diagnostic_ns": 350380
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 390889
+    },
+    {
+      "index": 10,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 10185,
+        "graph_build_ns": 68392,
+        "model_validation_ns": 243881,
+        "properness_ns": 16765,
+        "recovery_ns": 5899,
+        "reference_ns": 0,
+        "solve_ns": 9324,
+        "total_no_diagnostic_ns": 354446
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 393944
+    },
+    {
+      "index": 11,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 10776,
+        "graph_build_ns": 69513,
+        "model_validation_ns": 244012,
+        "properness_ns": 17275,
+        "recovery_ns": 5528,
+        "reference_ns": 0,
+        "solve_ns": 9584,
+        "total_no_diagnostic_ns": 356688
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 397760
+    },
+    {
+      "index": 12,
+      "phase": "measured",
+      "phases": {
+        "basin_ns": 10555,
+        "graph_build_ns": 70915,
+        "model_validation_ns": 306204,
+        "properness_ns": 27091,
+        "recovery_ns": 5759,
+        "reference_ns": 0,
+        "solve_ns": 9595,
+        "total_no_diagnostic_ns": 430119
+      },
+      "result_signature": "01372bab05ebb7a82f9320eed7fbd43df39305de8bd0e3fe41c5c4c7e3d881ac",
+      "status": "OK",
+      "trial_wall_ns": 472931
+    }
+  ],
+  "worker_process_elapsed_ns": 929028555,
+  "worker_returncode": 0
+}
